@@ -6,4 +6,6 @@
 .but{
     width: 100px;
     height: 100px;
+    position: fixed;
+    bottom: 200px;
 }
