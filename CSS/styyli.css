@@ -8,12 +8,12 @@
 }
 .left{
     position: fixed;
-    bottom: 400px;
+    bottom: 250px;
     left: 200px;
 }
 .right{
     position: fixed;
-    bottom: 400px;
+    bottom: 250px;
     right: 200px;
 }
 body{
