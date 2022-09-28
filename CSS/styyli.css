@@ -6,6 +6,16 @@
 .center{
     text-align: center;
 }
+.left{
+    position: fixed;
+    bottom: 400px;
+    left: 200px;
+}
+.right{
+    position: fixed;
+    bottom: 400px;
+    right: 200px;
+}
 body{
     overflow: hidden;
 }
