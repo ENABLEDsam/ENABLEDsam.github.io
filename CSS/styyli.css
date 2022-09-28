@@ -15,8 +15,10 @@
     position: fixed;
     bottom: 250px;
     right: 200px;
-    text-align: right;
 }
 body{
     overflow: hidden;
+}
+.Tright{
+    text-align: right;
 }
