@@ -10,8 +10,10 @@ var two = 0;
 //functiot
 
 function noFunc(){
-    one ++;
+    one = 1;
+    two = 0;
 }
 function yeFunc(){
-    two ++;
+    two = 1;
+    one = 0;
 }
