@@ -9,6 +9,7 @@ var one = 0;
 var two = 0;
 var thre = 0;
 var four = 0;
+var prog = 0;
 
 //functiot
 
