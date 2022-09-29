@@ -12,3 +12,6 @@ var two = 0;
 function noFunc(){
     one ++;
 }
+function yeFunc(){
+    two ++;
+}
