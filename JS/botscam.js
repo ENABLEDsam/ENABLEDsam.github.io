@@ -2,6 +2,7 @@
 var nopeNode = document.getElementById("Nah");
 var yepNode = document.getElementById("Aye");
 var awnNode = document.getElementById("vas");
+var qesNode = document.getElementById("ques");
 
 //varit
 var one = 0;
