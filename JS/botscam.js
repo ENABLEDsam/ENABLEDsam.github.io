@@ -6,6 +6,8 @@ var awnNode = document.getElementById("vas");
 //varit
 var one = 0;
 var two = 0;
+var thre = 0;
+var four = 0;
 
 //functiot
 
