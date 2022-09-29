@@ -16,8 +16,21 @@ var prog = 0;
 function noFunc(){
     one = 1;
     two = 0;
+
+    valCheFun()
 }
+
 function yeFunc(){
     two = 1;
     one = 0;
+
+    valCheFun()
+}
+
+function valCheFun(){
+    if(one == 1){
+        location.replace ("result1.html")
+    }else if(two == 1){
+        location.replace ("result2.html")
+    }
 }
