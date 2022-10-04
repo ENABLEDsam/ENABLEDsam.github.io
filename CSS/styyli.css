@@ -24,3 +24,9 @@ body{
 .Tright{
     text-align: right;
 }
+.backGrind{
+    position: fixed;
+    width: 1324px;
+    height: 876px;
+    background-image: url(img/Vinder_tausta.png);
+}
