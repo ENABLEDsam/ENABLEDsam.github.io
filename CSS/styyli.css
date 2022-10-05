@@ -25,5 +25,8 @@ body{
     text-align: right;
 }
 .backGrind{
+    position: fixed;
     background-image: url("img/Vinder tausta.png");
+    width: 1351px;
+    height: 893px;
 }
