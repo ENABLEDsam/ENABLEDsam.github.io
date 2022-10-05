@@ -26,5 +26,5 @@ body{
     text-align: right;
 }
 .backGrind{
-    background-image: url("Vinder_tausta.png");
+    background-image: image("Vinder_tausta.png");
 }
