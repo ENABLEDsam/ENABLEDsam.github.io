@@ -5,24 +5,28 @@ var awnNode = document.getElementById("vas");
 var qesNode = document.getElementById("ques");
 
 //varit
-var one = 0;
-var two = 0;
-var thre = 0;
-var four = 0;
+var mark = 0;
+var puhd = 0;
+var kass = 0;
+var houl = 0;
 var prog = 0;
 
 //functiot
 
 function noFunc(){
-    one = 1;
-    two = 0;
+    mark = 0;
+    puhd = 0;
+    kass = 0;
+    houl = 0;
 
     valCheFun()
 }
 
 function yeFunc(){
-    two = 1;
-    one = 0;
+    mark = 0;
+    puhd = 0;
+    kass = 0;
+    houl = 0;
 
     valCheFun()
 }
