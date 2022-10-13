@@ -23,7 +23,7 @@ function noFunc(){
         kass = 0;
         houl = 0;
 
-        
+        qesNode.innerText("Kiinnostaisiko sinua ruumiillista ponniskelua tehtävä työ?")
 
         prog ++
 
