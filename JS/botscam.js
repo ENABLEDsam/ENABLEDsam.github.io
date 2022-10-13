@@ -3,7 +3,7 @@ var nopeNode = document.getElementById("Nah");
 var yepNode = document.getElementById("Aye");
 var qesNode = document.getElementById("ques");
 
-
+qesNode.innerText("Kiinnostaisiko sinua ruumiillista ponniskelua tehtävä työ?")
 
 //varit
 var mark = 0;
@@ -23,7 +23,7 @@ function noFunc(){
         kass = 0;
         houl = 0;
 
-        qesNode.innerText("Kiinnostaisiko sinua ruumiillista ponniskelua tehtävä työ?")
+        
 
         prog ++
 
