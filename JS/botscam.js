@@ -1,9 +1,8 @@
 //nodet
 var nopeNode = document.getElementById("Nah");
 var yepNode = document.getElementById("Aye");
-var qesNode = document.getElementById("ques");
 
-qesNode.innerHTML("asdfffewf")
+
 
 //varit
 var mark = 0;
@@ -25,7 +24,7 @@ function noFunc(){
 
         prog ++
 
-        //qesNode.innerText("Kiinnostaisiko sinua ruumiillista ponniskelua tehtävä työ?")
+        document.getElementById("ques").innerText("Kiinnostaisiko sinua ruumiillista ponniskelua tehtävä työ?")
 
     }else if(prog == 1){
 
