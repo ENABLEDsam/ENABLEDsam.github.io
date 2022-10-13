@@ -3,7 +3,7 @@ var nopeNode = document.getElementById("Nah");
 var yepNode = document.getElementById("Aye");
 var qesNode = document.getElementById("ques");
 
-qesNode.innerHTML("Kiinnostaisiko sinua ruumiillista ponniskelua tehtävä työ?")
+
 
 //varit
 var mark = 0;
