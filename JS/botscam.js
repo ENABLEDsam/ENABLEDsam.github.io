@@ -16,11 +16,11 @@ function noFunc(){
 
 
     if(prog == 0){
-        mark = 1;
-        puhd = 1;
-        kass = 1;
-        houl = 1;
-        
+        mark = 0;
+        puhd = 0;
+        kass = 0;
+        houl = 0;
+
         qesNode.innerText("Kiinnostaisiko sinua ruumiillista ponniskelua tehtävä työ?")
 
     }else if(prog == 1){
@@ -34,10 +34,10 @@ function yeFunc(){
 
 
     if(prog == 0){
-        mark = 0;
-        puhd = 0;
-        kass = 0;
-        houl = 0;
+        mark = 1;
+        puhd = 1;
+        kass = 1;
+        houl = 1;
 
         qesNode.innerText("Kiinnostaisiko sinua ruumiillista ponniskelua tehtävä työ?")
 
