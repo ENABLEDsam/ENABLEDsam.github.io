@@ -1,7 +1,6 @@
 //nodet
 var nopeNode = document.getElementById("Nah");
 var yepNode = document.getElementById("Aye");
-var awnNode = document.getElementById("vas");
 var qesNode = document.getElementById("ques");
 
 //varit
@@ -21,6 +20,7 @@ function noFunc(){
         puhd = 1;
         kass = 1;
         houl = 1;
+        
     }else if(prog == 1){
 
     }
