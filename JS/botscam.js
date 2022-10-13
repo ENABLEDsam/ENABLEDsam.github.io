@@ -23,7 +23,7 @@ function noFunc(){
         kass = 0;
         houl = 0;
 
-        qesNode.innerText("Kiinnostaisiko sinua ruumiillista ponniskelua tehtävä työ?")
+        qesNode.innerText ("Kiinnostaisiko sinua ruumiillista ponniskelua tehtävä työ?")
 
         prog ++
 
@@ -44,7 +44,7 @@ function yeFunc(){
         kass = 1;
         houl = 1;
 
-        qesNode.innerText("Kiinnostaisiko sinua ruumiillista ponniskelua tehtävä työ?")
+        qesNode.innerText ("Kiinnostaisiko sinua ruumiillista ponniskelua tehtävä työ?")
 
         prog ++
 
