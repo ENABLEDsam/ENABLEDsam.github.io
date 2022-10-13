@@ -14,10 +14,10 @@ var prog = 0;
 //functiot
 
 function noFunc(){
-    mark = 0;
-    puhd = 0;
-    kass = 0;
-    houl = 0;
+    mark = 1;
+    puhd = 1;
+    kass = 1;
+    houl = 1;
 
     valCheFun()
 }
@@ -32,9 +32,7 @@ function yeFunc(){
 }
 
 function valCheFun(){
-    if(one == 1){
-        location.replace ("result1.html")
-    }else if(two == 1){
-        location.replace ("result2.html")
-    }
+
+
+    
 }
