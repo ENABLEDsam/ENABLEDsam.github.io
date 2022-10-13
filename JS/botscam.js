@@ -14,19 +14,31 @@ var prog = 0;
 //functiot
 
 function noFunc(){
-    mark = 1;
-    puhd = 1;
-    kass = 1;
-    houl = 1;
+
+
+    if(prog == 0){
+        mark = 1;
+        puhd = 1;
+        kass = 1;
+        houl = 1;
+    }else if(prog == 1){
+
+    }
 
     valCheFun()
 }
 
 function yeFunc(){
-    mark = 0;
-    puhd = 0;
-    kass = 0;
-    houl = 0;
+
+
+    if(prog == 0){
+        mark = 0;
+        puhd = 0;
+        kass = 0;
+        houl = 0;
+    }else if(prog == 1){
+
+    }
 
     valCheFun()
 }
