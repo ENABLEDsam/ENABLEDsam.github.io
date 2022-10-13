@@ -3,7 +3,7 @@ var nopeNode = document.getElementById("Nah");
 var yepNode = document.getElementById("Aye");
 var qesNode = document.getElementById("ques");
 
-qesNode.innerText("asdfffewf")
+qesNode.innerHTML("asdfffewf")
 
 //varit
 var mark = 0;
