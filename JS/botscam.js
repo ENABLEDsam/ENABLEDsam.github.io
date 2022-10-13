@@ -21,6 +21,8 @@ function noFunc(){
         kass = 0;
         houl = 0;
 
+        prog ++
+
         qesNode.innerText("Kiinnostaisiko sinua ruumiillista ponniskelua tehtävä työ?")
 
     }else if(prog == 1){
@@ -38,6 +40,8 @@ function yeFunc(){
         puhd = 1;
         kass = 1;
         houl = 1;
+
+        prog ++
 
         qesNode.innerText("Kiinnostaisiko sinua ruumiillista ponniskelua tehtävä työ?")
 
