@@ -27,7 +27,7 @@ function noFunc(){
 
     }
 
-    valCheFun()
+
 }
 
 function yeFunc(){
@@ -45,7 +45,7 @@ function yeFunc(){
 
     }
 
-    valCheFun()
+
 }
 
 function valCheFun(){
