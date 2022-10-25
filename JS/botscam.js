@@ -11,6 +11,7 @@ var puhd = 0;
 var kass = 0;
 var houl = 0;
 var prog = 0;
+var cook = 0
 
 //functiot
 
@@ -22,6 +23,7 @@ function noFunc(){
         puhd = 0;
         kass = 0;
         houl = 0;
+        cook = 0;
 
         qesNode.innerText = ("Kiinnostaisiko sinua ruumiillista ponniskelua tehtävä työ?")
 
@@ -29,11 +31,25 @@ function noFunc(){
 
 
     }else if(prog == 1){
-        houl ++;
+        mark ++;
+        kass ++;
 
         qesNode.innerText = ("Oletko kätevä käsistäsi ja hyvä kokoamaan huonekaluja?")
 
         prog ++
+
+    }else if(prog == 2){
+        cook ++;
+        puhd ++;
+        mark ++;
+        kass ++;
+       
+        qesNode.innerText = ("Pidätkö ruoanlaitosta?")
+
+        prog ++
+
+    }else if(prog == 3){
+
     }
 
 
@@ -47,6 +63,7 @@ function yeFunc(){
         puhd = 1;
         kass = 1;
         houl = 1;
+        cook = 1;
 
         qesNode.innerText = ("Kiinnostaisiko sinua ruumiillista ponniskelua tehtävä työ?")
 
@@ -54,20 +71,24 @@ function yeFunc(){
 
         
     }else if(prog == 1){
-        mark ++;
+        houl ++;
+        cook ++;
         puhd ++;
-        kass ++;
-
+       
         qesNode.innerText = ("Oletko kätevä käsistäsi ja hyvä kokoamaan huonekaluja?")
 
         prog ++
+
+    }else if(prog == 2){
+        houl ++; 
+
+        qesNode.innerText = ("Pidätkö ruoanlaitosta?")
+
+        prog ++
+
+    }else if(prog == 3){
+
     }
 
 
-}
-
-function valCheFun(){
-
-
-    
 }
