@@ -29,7 +29,11 @@ function noFunc(){
 
 
     }else if(prog == 1){
+        houl ++;
 
+        qesNode.innerText = ("Oletko kätevä käsistäsi ja hyvä kokoamaan huonekaluja?")
+
+        prog ++
     }
 
 
@@ -50,7 +54,13 @@ function yeFunc(){
 
         
     }else if(prog == 1){
+        mark ++;
+        puhd ++;
+        kass ++;
 
+        qesNode.innerText = ("Oletko kätevä käsistäsi ja hyvä kokoamaan huonekaluja?")
+
+        prog ++
     }
 
 
