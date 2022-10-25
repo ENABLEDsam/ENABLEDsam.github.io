@@ -49,7 +49,31 @@ function noFunc(){
         prog ++
 
     }else if(prog == 3){
+        houl ++;
+        puhd ++;
+        mark ++;
+        kass ++;
 
+        qesNode.innerText = ("Haaveiletko viestinnän ja tiedottamisen parissa työskentelystä?")
+
+        prog ++
+    }else if(prog == 4){
+        houl ++;
+        puhd ++;
+        cook ++;
+        kass ++;
+
+        qesNode.innerText = ("Vietätkö mielelläsi paljon aikaa tietokoneen ääressä?")
+
+        prog ++
+    }else if(prog == 5){
+        puhd ++
+        houl ++ 
+        cook ++
+        
+        qesNode.innerText = ("Onko sinulla ajokortti ja haluaisit ajaa työksesi autoa?")
+
+        prog ++
     }
 
 
@@ -87,7 +111,24 @@ function yeFunc(){
         prog ++
 
     }else if(prog == 3){
+        cook ++;
 
+        qesNode.innerText = ("Haaveiletko viestinnän ja tiedottamisen parissa työskentelystä?")
+
+        prog ++
+    }else if(prog == 4){
+        mark ++
+
+        qesNode.innerText = ("Vietätkö mielelläsi paljon aikaa tietokoneen ääressä?")
+
+        prog ++
+    }else if(prog == 5){
+        mark ++
+        kass ++
+        
+        qesNode.innerText = ("Onko sinulla ajokortti ja haluaisit ajaa työksesi autoa?")
+
+        prog ++
     }
 
 
