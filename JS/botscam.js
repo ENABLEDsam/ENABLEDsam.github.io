@@ -93,7 +93,13 @@ function noFunc(){
 
         prog ++
     }else if(prog == 8){
+        mark ++
+        kass ++
+        houl ++
 
+        qesNode.innerText = ("Haluatko tehdä töitä numeroiden parissa?")
+
+        prog ++
     }
 
 
@@ -162,7 +168,12 @@ function yeFunc(){
 
         prog ++
     }else if(prog == 8){
+        puhd ++
+        cook ++
 
+        qesNode.innerText = ("Haluatko tehdä töitä numeroiden parissa?")
+
+        prog ++
     }
 
 
