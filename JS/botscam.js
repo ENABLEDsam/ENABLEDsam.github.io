@@ -74,6 +74,15 @@ function noFunc(){
         qesNode.innerText = ("Onko sinulla ajokortti ja haluaisit ajaa työksesi autoa?")
 
         prog ++
+    }else if(prog == 6){
+        mark ++;
+        puhd ++;
+        cook ++;
+        kass ++;
+
+        qesNode.innerText = ("Oletko palveluhenkinen ja pidät työskentelystä erilaisten ihmisten kanssa?")
+
+        prog ++
     }
 
 
@@ -127,6 +136,12 @@ function yeFunc(){
         kass ++
         
         qesNode.innerText = ("Onko sinulla ajokortti ja haluaisit ajaa työksesi autoa?")
+
+        prog ++
+    }else if(prog == 6){
+        houl ++
+
+        qesNode.innerText = ("Oletko palveluhenkinen ja pidät työskentelystä erilaisten ihmisten kanssa?")
 
         prog ++
     }
