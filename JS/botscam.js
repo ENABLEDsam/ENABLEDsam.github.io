@@ -101,7 +101,14 @@ function noFunc(){
 
         prog ++
     }else if(prog == 9){
+        puhd ++
+        cook ++
+        mark ++
+        houl ++
 
+        qesNode.innerText = ("Kiinnostaako sinua pyörittää vaatekauppaa?")
+
+        prog ++
     }
 
 
@@ -177,7 +184,11 @@ function yeFunc(){
 
         prog ++
     }else if(prog == 9){
-        
+        kass ++
+
+        qesNode.innerText = ("Kiinnostaako sinua pyörittää vaatekauppaa?")
+
+        prog ++
     }
 
 
