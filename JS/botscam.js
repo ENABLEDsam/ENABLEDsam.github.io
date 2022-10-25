@@ -83,6 +83,17 @@ function noFunc(){
         qesNode.innerText = ("Oletko palveluhenkinen ja pidät työskentelystä erilaisten ihmisten kanssa?")
 
         prog ++
+    }else if (prog == 7){
+        puhd ++
+        cook ++
+        mark ++
+        houl ++
+
+        qesNode.innerText = ("Oletko tarkka puhtaudestaja siisteydestä?")
+
+        prog ++
+    }else if(prog == 8){
+
     }
 
 
@@ -144,6 +155,14 @@ function yeFunc(){
         qesNode.innerText = ("Oletko palveluhenkinen ja pidät työskentelystä erilaisten ihmisten kanssa?")
 
         prog ++
+    }else if(prog == 7){
+        kass ++
+
+        qesNode.innerText = ("Oletko tarkka puhtaudestaja siisteydestä?")
+
+        prog ++
+    }else if(prog == 8){
+
     }
 
 
