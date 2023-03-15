@@ -11,7 +11,7 @@ var puhd = 0;
 var kass = 0;
 var houl = 0;
 var prog = 0;
-var cook = 0
+var cook = 0;
 
 //functiot
 
