@@ -1,30 +1,35 @@
-
-.but{
+.but {
     width: 300px;
     height: 300px;
 }
-.center{
+
+.center {
     text-align: center;
 }
-.left{
+
+.left {
     position: fixed;
     bottom: 250px;
     left: 200px;
 }
-.right{
+
+.right {
     position: fixed;
     bottom: 250px;
     right: 200px;
 }
-body{
+
+body {
     background-color: #81CEDE;
     color: black;
     overflow: hidden;
     font-family: 'Open Sans', sans-serif;
 }
-.Tright{
+
+.Tright {
     text-align: right;
 }
-.extendo{
+
+.extendo {
     padding-top: 200px;
 }
