@@ -23,14 +23,9 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 .bg{
-    /*background-image: url("../img/Vinder_tausta.png");
+    background-image: url("../img/Vinder_tausta.png");
     background-size: 100% 270%;
-    background-repeat: no-repeat;*/
-    background: url("../img/Vinder_tausta.png") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 .Tright{
     text-align: right;
