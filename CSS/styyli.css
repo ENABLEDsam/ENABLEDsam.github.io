@@ -24,7 +24,7 @@ body{
 }
 .bg{
     background-image: url("../img/Vinder_tausta.png");
-    background-size: 100% 270%;
+    background-size: 100% auto;
     background-repeat: no-repeat;
 }
 .Tright{
