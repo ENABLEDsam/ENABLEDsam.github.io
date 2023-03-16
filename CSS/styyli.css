@@ -21,6 +21,7 @@ body{
     color: black;
     overflow: hidden;
     font-family: 'Open Sans', sans-serif;
+    background-image: url("img/Vinder_tausta.png");
 }
 .Tright{
     text-align: right;
