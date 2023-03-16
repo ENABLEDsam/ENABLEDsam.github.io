@@ -22,7 +22,7 @@ body{
     overflow: hidden;
     font-family: 'Open Sans', sans-serif;
     background-image: url("../img/Vinder_tausta.png");
-    background-size: auto;
+    background-size: contain;
 }
 .Tright{
     text-align: right;
