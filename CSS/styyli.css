@@ -23,6 +23,8 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-image: url("../img/Vinder_tausta.png");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-size:contain;
 }
 .Tright{
     text-align: right;
