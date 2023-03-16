@@ -19,11 +19,6 @@ function noFunc(){
 
 
     if(prog == 0){
-        mark = 0;
-        puhd = 0;
-        kass = 0;
-        houl = 0;
-        cook = 0;
 
         qesNode.innerText = ("Kiinnostaisiko sinua ruumiillista ponniskelua tehtävä työ?")
 
