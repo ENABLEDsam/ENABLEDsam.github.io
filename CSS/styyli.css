@@ -17,12 +17,12 @@
     right: 200px;
 }
 body{
-    /*background-color: #81CEDE;*/
+    background-color: #81CEDE;
     color: black;
     overflow: hidden;
     font-family: 'Open Sans', sans-serif;
     background-image: url("../img/Vinder_tausta.png");
-    background-size: 100% 100%;
+    background-size: 100% 200%;
     background-repeat: no-repeat;
 }
 .Tright{
