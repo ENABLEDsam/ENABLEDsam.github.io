@@ -190,6 +190,8 @@ function noFunc(){
         mark ++;
         puhd ++;
         cook ++;
+
+        yeetPage()
     }
 
 
@@ -341,7 +343,25 @@ function yeFunc(){
     }else if(prog == 20){
         kass ++;
         houl ++;
+
+        yeetPage()
     }
 
 
+}
+
+function yeetPage(){
+
+
+    if (mark > puhd && mark > kass && mark > houl && mark > cook){
+        window.location.href = "result2.html";
+    }else if (puhd > mark && puhd > kass && puhd > houl && puhd > cook){
+        window.location.href = "result3.html";
+    }else if (kass > puhd && kass > mark && kass > houl && kass > cook){
+        window.location.href = "result4.html";
+    }else if (houl > puhd && houl > kass && houl > mark && houl > cook){
+        window.location.href = "result1.html";
+    }else if (cook > puhd && cook > kass && cook > houl && cook > mark){
+        window.location.href = "result5.html";
+    }
 }
