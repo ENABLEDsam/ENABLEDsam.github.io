@@ -131,49 +131,65 @@ function noFunc(){
 
         prog ++
     }else if(prog == 13){
-
+        kass ++
+        cook ++
+        mark ++
+        houl ++
 
         qesNode.innerText = ("Oletko luova?")
 
         prog ++
     }else if(prog == 14){
-
+        houl ++;
+        puhd ++;
+        cook ++;
+        kass ++;
 
         qesNode.innerText = ("Koetko hygienian tärkeäksi?")
 
         prog ++
     }else if(prog == 15){
-
+        mark ++;
+        kass ++;
+        houl ++;
 
         qesNode.innerText = ("Kiinnostaako vaihtelevat työt ja projektit?")
 
         prog ++
     }else if(prog == 16){
-
+        puhd ++;
+        cook ++;
 
         qesNode.innerText = ("Pidätkö samankaltaisista toistuvista töistä?")
 
         prog ++
     }else if(prog == 17){
-
+        mark ++;
+        kass ++;
+        houl ++;
 
         qesNode.innerText = ("Pidätkö kiinteistön hoidosta?")
 
         prog ++
     }else if(prog == 18){
-
+        mark ++;
+        kass ++;
+        cook ++;
 
         qesNode.innerText = ("Tykkäätkö työskennellä yksin?")
 
         prog ++
     }else if(prog == 19){
-
+        kass ++;
+        houl ++;
 
         qesNode.innerText = ("Tykkäätkö työskennellä ryhmässä?")
 
         prog ++
     }else if(prog == 20){
-
+        mark ++;
+        puhd ++;
+        cook ++;
     }
 
 
@@ -274,49 +290,57 @@ function yeFunc(){
 
         prog ++
     }else if(prog == 13){
-
+        puhd ++;
 
         qesNode.innerText = ("Oletko luova?")
 
         prog ++
     }else if(prog == 14){
-
+        mark ++;
 
         qesNode.innerText = ("Koetko hygienian tärkeäksi?")
 
         prog ++
     }else if(prog == 15){
-
+        puhd ++;
+        cook ++;
 
         qesNode.innerText = ("Kiinnostaako vaihtelevat työt ja projektit?")
 
         prog ++
     }else if(prog == 16){
-
+        mark ++;
+        kass ++;
+        houl ++;
 
         qesNode.innerText = ("Pidätkö samankaltaisista toistuvista töistä?")
 
         prog ++
     }else if(prog == 17){
-
+        puhd ++;
+        cook ++;
 
         qesNode.innerText = ("Pidätkö kiinteistön hoidosta?")
 
         prog ++
     }else if(prog == 18){
-
+        puhd ++;
+        houl ++;
 
         qesNode.innerText = ("Tykkäätkö työskennellä yksin?")
 
         prog ++
     }else if(prog == 19){
-
+        mark ++;
+        puhd ++;
+        cook ++;
 
         qesNode.innerText = ("Tykkäätkö työskennellä ryhmässä?")
 
         prog ++
     }else if(prog == 20){
-
+        kass ++;
+        houl ++;
     }
 
 
