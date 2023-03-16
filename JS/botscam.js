@@ -114,7 +114,22 @@ function noFunc(){
 
         prog ++
     }else if(prog == 11){
+        kass ++
+        cook ++
+        mark ++
+        houl ++
+        
+        qesNode.innerText = ("kestätkö painetta työssä?")
 
+        prog ++
+    }else if(prog == 12){
+        puhd = 1;
+        kass = 1;
+        houl = 1;
+
+        qesNode.innerText = ("pidätkö mekaanisesta työstä?")
+
+        prog ++
     }
 
 
@@ -202,7 +217,18 @@ function yeFunc(){
 
         prog ++
     }else if(prog == 11){
+        puhd ++
 
+        qesNode.innerText = ("kestätkö painetta työssä?")
+
+        prog ++
+    }else if(prog == 12){
+        mark ++
+        cook ++
+
+        qesNode.innerText = ("pidätkö mekaanisesta työstä?")
+
+        prog ++
     }
 
 
