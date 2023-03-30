@@ -20,7 +20,7 @@ function hover(element, enter, leave){
     element.addEventListener('mouseleave', leave)
 }
 
-hover(ArrowNode, e => { //e elementti väittää turhuuttua mutta koodi ei toimi ilman sitä
+hover(nopeNode, e => { //e elementti väittää turhuuttua mutta koodi ei toimi ilman sitä
     // On hover
     nopeNode.style.height = "280px";
     nopeNode.style.width = "280px";
@@ -30,7 +30,7 @@ hover(ArrowNode, e => { //e elementti väittää turhuuttua mutta koodi ei toimi
     nopeNode.style.width = "300px";
 })
 
-hover(ArrowNode, e => { //e elementti väittää turhuuttua mutta koodi ei toimi ilman sitä
+hover(yepNode, e => { //e elementti väittää turhuuttua mutta koodi ei toimi ilman sitä
     // On hover
     yepNode.style.height = "280px";
     yepNode.style.width = "280px";
