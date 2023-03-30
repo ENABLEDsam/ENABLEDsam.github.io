@@ -15,6 +15,31 @@ var cook = 0;
 
 //functiot
 
+function hover(element, enter, leave){
+    element.addEventListener('mouseenter', enter)
+    element.addEventListener('mouseleave', leave)
+}
+
+hover(ArrowNode, e => { //e elementti väittää turhuuttua mutta koodi ei toimi ilman sitä
+    // On hover
+    nopeNode.style.height = "280px";
+    nopeNode.style.width = "280px";
+  }, e => {
+    // On exit hover
+    nopeNode.style.height = "300px";
+    nopeNode.style.width = "300px";
+})
+
+hover(ArrowNode, e => { //e elementti väittää turhuuttua mutta koodi ei toimi ilman sitä
+    // On hover
+    yepNode.style.height = "280px";
+    yepNode.style.width = "280px";
+  }, e => {
+    // On exit hover
+    yepNode.style.height = "300px";
+    yepNode.style.width = "300px";
+})
+
 function noFunc(){
 
 
