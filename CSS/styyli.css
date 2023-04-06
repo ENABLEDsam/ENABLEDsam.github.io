@@ -22,7 +22,7 @@ body{
     color: black;
     font-family: 'Open Sans', sans-serif;
 }
-body.scrollLock{
+.scrollLock{
     overflow: hidden;
 }
 .bg{
