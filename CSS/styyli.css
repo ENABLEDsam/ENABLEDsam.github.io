@@ -20,8 +20,10 @@
 body{
     background-color: #81CEDE;
     color: black;
-    overflow: hidden;
     font-family: 'Open Sans', sans-serif;
+}
+body.scrollLock{
+    overflow: hidden;
 }
 .bg{
     background-image: url("../img/Vinder_tausta.png");
