@@ -2,7 +2,8 @@
 var nopeNode = document.getElementById("Nah");
 var yepNode = document.getElementById("Aye");
 var qesNode = document.getElementById("ques");
-
+var A1 = document.getElementById("a1").innerText;
+var O1 = document.getElementById("o1").innerText;
 
 
 //varit
@@ -20,7 +21,7 @@ function hover(element, enter, leave){
     element.addEventListener('mouseleave', leave)
 }
 
-hover(nopeNode, e => { //e elementti v&auml;itt&auml;&auml; turhuuttua mutta koodi ei toimi ilman sit&auml;
+hover(nopeNode, e => { //e elementti v" + A1 + "itt" + A1 + "" + A1 + " turhuuttua mutta koodi ei toimi ilman sit" + A1 + "
     // On hover
     nopeNode.style.height = "280px";
     nopeNode.style.width = "280px";
@@ -30,7 +31,7 @@ hover(nopeNode, e => { //e elementti v&auml;itt&auml;&auml; turhuuttua mutta koo
     nopeNode.style.width = "300px";
 })
 
-hover(yepNode, e => { //e elementti v&auml;itt&auml;&auml; turhuuttua mutta koodi ei toimi ilman sit&auml;
+hover(yepNode, e => { //e elementti v" + A1 + "itt" + A1 + "" + A1 + " turhuuttua mutta koodi ei toimi ilman sit" + A1 + "
     // On hover
     yepNode.style.height = "280px";
     yepNode.style.width = "280px";
@@ -45,7 +46,7 @@ function noFunc(){
 
     if(prog == 0){
 
-        qesNode.innerText = ("Kiinnostaisiko sinua ruumiillista ponniskelua teht&auml;v&auml; ty&ouml;?")
+        qesNode.innerHTML = ("Kiinnostaisiko sinua ruumiillista ponniskelua teht" + A1 + "v" + A1 +" ty"+ O1 +"?")
 
         prog ++
 
@@ -54,7 +55,7 @@ function noFunc(){
         mark ++;
         kass ++;
 
-        qesNode.innerText = ("Oletko k&auml;tev&auml; k&auml;sist&auml;si ja hyv&auml; kokoamaan huonekaluja?")
+        qesNode.innerText = ("Oletko k" + A1 + "tev" + A1 + " k" + A1 + "sist" + A1 + "si ja hyv" + A1 + " kokoamaan huonekaluja?")
 
         prog ++
 
@@ -64,7 +65,7 @@ function noFunc(){
         mark ++;
         kass ++;
        
-        qesNode.innerText = ("Pid&auml;tk&ouml; ruoanlaitosta?")
+        qesNode.innerText = ("Pid" + A1 + "tk"+ O1 +" ruoanlaitosta?")
 
         prog ++
 
@@ -74,7 +75,7 @@ function noFunc(){
         mark ++;
         kass ++;
 
-        qesNode.innerText = ("Haaveiletko viestinn&auml;n ja tiedottamisen parissa ty&ouml;skentelyst&auml;?")
+        qesNode.innerText = ("Haaveiletko viestinn" + A1 + "n ja tiedottamisen parissa ty"+ O1 +"skentelyst" + A1 + "?")
 
         prog ++
     }else if(prog == 4){
@@ -83,7 +84,7 @@ function noFunc(){
         cook ++;
         kass ++;
 
-        qesNode.innerText = ("Viet&auml;tk&ouml; mielell&auml;si paljon aikaa tietokoneen &auml;&auml;ress&auml;?")
+        qesNode.innerText = ("Viet" + A1 + "tk"+ O1 +" mielell" + A1 + "si paljon aikaa tietokoneen " + A1 + "" + A1 + "ress" + A1 + "?")
 
         prog ++
     }else if(prog == 5){
@@ -91,7 +92,7 @@ function noFunc(){
         houl ++ 
         cook ++
         
-        qesNode.innerText = ("Onko sinulla ajokortti ja haluaisit ajaa ty&ouml;ksesi autoa?")
+        qesNode.innerText = ("Onko sinulla ajokortti ja haluaisit ajaa ty"+ O1 +"ksesi autoa?")
 
         prog ++
     }else if(prog == 6){
@@ -100,7 +101,7 @@ function noFunc(){
         cook ++;
         kass ++;
 
-        qesNode.innerText = ("Oletko palveluhenkinen ja pid&auml;t ty&ouml;skentelyst&auml; erilaisten ihmisten kanssa?")
+        qesNode.innerText = ("Oletko palveluhenkinen ja pid" + A1 + "t ty"+ O1 +"skentelyst" + A1 + " erilaisten ihmisten kanssa?")
 
         prog ++
     }else if (prog == 7){
@@ -109,7 +110,7 @@ function noFunc(){
         mark ++
         houl ++
 
-        qesNode.innerText = ("Oletko tarkka puhtaudestaja siisteydest&auml;?")
+        qesNode.innerText = ("Oletko tarkka puhtaudestaja siisteydest" + A1 + "?")
 
         prog ++
     }else if(prog == 8){
@@ -117,7 +118,7 @@ function noFunc(){
         kass ++
         houl ++
 
-        qesNode.innerText = ("Haluatko tehd&auml; t&ouml;it&auml; numeroiden parissa?")
+        qesNode.innerText = ("Haluatko tehd" + A1 + " t"+ O1 +"it" + A1 + " numeroiden parissa?")
 
         prog ++
     }else if(prog == 9){
@@ -126,7 +127,7 @@ function noFunc(){
         mark ++
         houl ++
 
-        qesNode.innerText = ("Kiinnostaako sinua py&ouml;ritt&auml;&auml; vaatekauppaa?")
+        qesNode.innerText = ("Kiinnostaako sinua py"+ O1 +"ritt" + A1 + "" + A1 + " vaatekauppaa?")
 
         prog ++
     }else if(prog == 10){
@@ -135,7 +136,7 @@ function noFunc(){
         mark ++
         houl ++
         
-        qesNode.innerText = ("Oletko herkk&auml; hajuille?")
+        qesNode.innerText = ("Oletko herkk" + A1 + " hajuille?")
 
         prog ++
     }else if(prog == 11){
@@ -144,7 +145,7 @@ function noFunc(){
         mark ++
         houl ++
         
-        qesNode.innerText = ("Kest&auml;tk&ouml; painetta ty&ouml;ss&auml;?")
+        qesNode.innerText = ("Kest" + A1 + "tk"+ O1 +" painetta ty"+ O1 +"ss" + A1 + "?")
 
         prog ++
     }else if(prog == 12){
@@ -152,7 +153,7 @@ function noFunc(){
         kass = 1;
         houl = 1;
 
-        qesNode.innerText = ("Pid&auml;tk&ouml; mekaanisesta ty&ouml;st&auml;?")
+        qesNode.innerText = ("Pid" + A1 + "tk"+ O1 +" mekaanisesta ty"+ O1 +"st" + A1 + "?")
 
         prog ++
     }else if(prog == 13){
@@ -170,7 +171,7 @@ function noFunc(){
         cook ++;
         kass ++;
 
-        qesNode.innerText = ("Koetko hygienian t&auml;rke&auml;ksi?")
+        qesNode.innerText = ("Koetko hygienian t" + A1 + "rke" + A1 + "ksi?")
 
         prog ++
     }else if(prog == 15){
@@ -178,14 +179,14 @@ function noFunc(){
         kass ++;
         houl ++;
 
-        qesNode.innerText = ("Kiinnostaako vaihtelevat ty&ouml;t ja projektit?")
+        qesNode.innerText = ("Kiinnostaako vaihtelevat ty"+ O1 +"t ja projektit?")
 
         prog ++
     }else if(prog == 16){
         puhd ++;
         cook ++;
 
-        qesNode.innerText = ("Pid&auml;tk&ouml; samankaltaisista toistuvista t&ouml;ist&auml;?")
+        qesNode.innerText = ("Pid" + A1 + "tk"+ O1 +" samankaltaisista toistuvista t"+ O1 +"ist" + A1 + "?")
 
         prog ++
     }else if(prog == 17){
@@ -193,7 +194,7 @@ function noFunc(){
         kass ++;
         houl ++;
 
-        qesNode.innerText = ("Pid&auml;tk&ouml; kiinteist&ouml;n hoidosta?")
+        qesNode.innerText = ("Pid" + A1 + "tk"+ O1 +" kiinteist"+ O1 +"n hoidosta?")
 
         prog ++
     }else if(prog == 18){
@@ -201,14 +202,14 @@ function noFunc(){
         kass ++;
         cook ++;
 
-        qesNode.innerText = ("Tykk&auml;&auml;tk&ouml; ty&ouml;skennell&auml; yksin?")
+        qesNode.innerText = ("Tykk" + A1 + "" + A1 + "tk"+ O1 +" ty"+ O1 +"skennell" + A1 + " yksin?")
 
         prog ++
     }else if(prog == 19){
         kass ++;
         houl ++;
 
-        qesNode.innerText = ("Tykk&auml;&auml;tk&ouml; ty&ouml;skennell&auml; ryhm&auml;ss&auml;?")
+        qesNode.innerText = ("Tykk" + A1 + "" + A1 + "tk"+ O1 +" ty"+ O1 +"skennell" + A1 + " ryhm" + A1 + "ss" + A1 + "?")
 
         prog ++
     }else if(prog == 20){
@@ -232,7 +233,7 @@ function yeFunc(){
         houl = 1;
         cook = 1;
 
-        qesNode.innerText = ("Kiinnostaisiko sinua ruumiillista ponniskelua teht&auml;v&auml; ty&ouml;?")
+        qesNode.innerText = ("Kiinnostaisiko sinua ruumiillista ponniskelua teht" + A1 + "v" + A1 + " ty"+ O1 +"?")
 
         prog ++
 
@@ -242,78 +243,78 @@ function yeFunc(){
         cook ++;
         puhd ++;
        
-        qesNode.innerText = ("Oletko k&auml;tev&auml; k&auml;sist&auml;si ja hyv&auml; kokoamaan huonekaluja?")
+        qesNode.innerText = ("Oletko k" + A1 + "tev" + A1 + " k" + A1 + "sist" + A1 + "si ja hyv" + A1 + " kokoamaan huonekaluja?")
 
         prog ++
 
     }else if(prog == 2){
         houl ++; 
 
-        qesNode.innerText = ("Pid&auml;tk&ouml; ruoanlaitosta?")
+        qesNode.innerText = ("Pid" + A1 + "tk"+ O1 +" ruoanlaitosta?")
 
         prog ++
 
     }else if(prog == 3){
         cook ++;
 
-        qesNode.innerText = ("Haaveiletko viestinn&auml;n ja tiedottamisen parissa ty&ouml;skentelyst&auml;?")
+        qesNode.innerText = ("Haaveiletko viestinn" + A1 + "n ja tiedottamisen parissa ty"+ O1 +"skentelyst" + A1 + "?")
 
         prog ++
     }else if(prog == 4){
         mark ++
 
-        qesNode.innerText = ("Viet&auml;tk&ouml; mielell&auml;si paljon aikaa tietokoneen &auml;&auml;ress&auml;?")
+        qesNode.innerText = ("Viet" + A1 + "tk"+ O1 +" mielell" + A1 + "si paljon aikaa tietokoneen " + A1 + "" + A1 + "ress" + A1 + "?")
 
         prog ++
     }else if(prog == 5){
         mark ++
         kass ++
         
-        qesNode.innerText = ("Onko sinulla ajokortti ja haluaisit ajaa ty&ouml;ksesi autoa?")
+        qesNode.innerText = ("Onko sinulla ajokortti ja haluaisit ajaa ty"+ O1 +"ksesi autoa?")
 
         prog ++
     }else if(prog == 6){
         houl ++
 
-        qesNode.innerText = ("Oletko palveluhenkinen ja pid&auml;t ty&ouml;skentelyst&auml; erilaisten ihmisten kanssa?")
+        qesNode.innerText = ("Oletko palveluhenkinen ja pid" + A1 + "t ty"+ O1 +"skentelyst" + A1 + " erilaisten ihmisten kanssa?")
 
         prog ++
     }else if(prog == 7){
         kass ++
 
-        qesNode.innerText = ("Oletko tarkka puhtaudestaja siisteydest&auml;?")
+        qesNode.innerText = ("Oletko tarkka puhtaudestaja siisteydest" + A1 + "?")
 
         prog ++
     }else if(prog == 8){
         puhd ++
         cook ++
 
-        qesNode.innerText = ("Haluatko tehd&auml; t&ouml;it&auml; numeroiden parissa?")
+        qesNode.innerText = ("Haluatko tehd" + A1 + " t"+ O1 +"it" + A1 + " numeroiden parissa?")
 
         prog ++
     }else if(prog == 9){
         kass ++
 
-        qesNode.innerText = ("Kiinnostaako sinua py&ouml;ritt&auml;&auml; vaatekauppaa?")
+        qesNode.innerText = ("Kiinnostaako sinua py"+ O1 +"ritt" + A1 + "" + A1 + " vaatekauppaa?")
 
         prog ++
     }else if(prog == 10){
         kass ++
 
-        qesNode.innerText = ("Oletko herkk&auml; hajuille?")
+        qesNode.innerText = ("Oletko herkk" + A1 + " hajuille?")
 
         prog ++
     }else if(prog == 11){
         puhd ++
 
-        qesNode.innerText = ("Kest&auml;tk&ouml; painetta ty&ouml;ss&auml;?")
+        qesNode.innerText = ("Kest" + A1 + "tk"+ O1 +" painetta ty"+ O1 +"ss" + A1 + "?")
 
         prog ++
     }else if(prog == 12){
         mark ++
         cook ++
 
-        qesNode.innerText = ("Pid&auml;tk&ouml; mekaanisesta ty&ouml;st&auml;?")
+        qesNode.innerText = ("Pid" + A1 + "tk"+ O1 +" mekaanisesta ty"+ O1 +"st" + A1 + "?")
 
         prog ++
     }else if(prog == 13){
@@ -325,14 +326,14 @@ function yeFunc(){
     }else if(prog == 14){
         mark ++;
 
-        qesNode.innerText = ("Koetko hygienian t&auml;rke&auml;ksi?")
+        qesNode.innerText = ("Koetko hygienian t" + A1 + "rke" + A1 + "ksi?")
 
         prog ++
     }else if(prog == 15){
         puhd ++;
         cook ++;
 
-        qesNode.innerText = ("Kiinnostaako vaihtelevat ty&ouml;t ja projektit?")
+        qesNode.innerText = ("Kiinnostaako vaihtelevat ty"+ O1 +"t ja projektit?")
 
         prog ++
     }else if(prog == 16){
@@ -340,21 +341,21 @@ function yeFunc(){
         kass ++;
         houl ++;
 
-        qesNode.innerText = ("Pid&auml;tk&ouml; samankaltaisista toistuvista t&ouml;ist&auml;?")
+        qesNode.innerText = ("Pid" + A1 + "tk"+ O1 +" samankaltaisista toistuvista t"+ O1 +"ist" + A1 + "?")
 
         prog ++
     }else if(prog == 17){
         puhd ++;
         cook ++;
 
-        qesNode.innerText = ("Pid&auml;tk&ouml; kiinteist&ouml;n hoidosta?")
+        qesNode.innerText = ("Pid" + A1 + "tk"+ O1 +" kiinteist"+ O1 +"n hoidosta?")
 
         prog ++
     }else if(prog == 18){
         puhd ++;
         houl ++;
 
-        qesNode.innerText = ("Tykk&auml;&auml;tk&ouml; ty&ouml;skennell&auml; yksin?")
+        qesNode.innerText = ("Tykk" + A1 + "" + A1 + "tk"+ O1 +" ty"+ O1 +"skennell" + A1 + " yksin?")
 
         prog ++
     }else if(prog == 19){
@@ -362,7 +363,7 @@ function yeFunc(){
         puhd ++;
         cook ++;
 
-        qesNode.innerText = ("Tykk&auml;&auml;tk&ouml; ty&ouml;skennell&auml; ryhm&auml;ss&auml;?")
+        qesNode.innerText = ("Tykk" + A1 + "" + A1 + "tk"+ O1 +" ty"+ O1 +"skennell" + A1 + " ryhm" + A1 + "ss" + A1 + "?")
 
         prog ++
     }else if(prog == 20){
