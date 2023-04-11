@@ -379,14 +379,14 @@ function yeetPage(){
 
 
     if (mark > puhd && mark > kass && mark > houl && mark > cook){
-        window.location.href = "result2.html";
+        window.location.href = "result2.php";
     }else if (puhd > mark && puhd > kass && puhd > houl && puhd > cook){
-        window.location.href = "result3.html";
+        window.location.href = "result3.php";
     }else if (kass > puhd && kass > mark && kass > houl && kass > cook){
-        window.location.href = "result4.html";
+        window.location.href = "result4.php";
     }else if (houl > puhd && houl > kass && houl > mark && houl > cook){
-        window.location.href = "result1.html";
+        window.location.href = "result1.php";
     }else if (cook > puhd && cook > kass && cook > houl && cook > mark){
-        window.location.href = "result5.html";
+        window.location.href = "result5.php";
     }
 }
