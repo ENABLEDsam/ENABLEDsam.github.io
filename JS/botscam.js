@@ -45,7 +45,7 @@ function noFunc(){
 
     if(prog == 0){
 
-        qesNode.innerText = ("Kiinnostaisiko sinua ruumiillista ponniskelua teht&auml;v&auml; ty&ouml;?")
+        qesNode.innerHTML = ("Kiinnostaisiko sinua ruumiillista ponniskelua teht&auml;v&auml; ty&ouml;?")
 
         prog ++
 
