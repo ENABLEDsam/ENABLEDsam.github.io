@@ -455,6 +455,9 @@ function yeFunc(){
 
 function yeetPage(){
 
+    document.cookie = "ayeCookie = " + yems;
+    document.cookie = "nahCookie = " + nyo;
+
 
     if (mark > puhd && mark > kass && mark > houl && mark > cook){
         window.location.href = "result2.html";
