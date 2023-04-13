@@ -32,7 +32,7 @@ if(!isset($_POST['addName'])){
                 'kyll'     => $yescook,
                 'ei'       => $nocook,
                 'email'     => $email,
-                'luokka'    => "hoyla",
+                'luokka'    => "markkinointi",
             ]);
         }
     }
