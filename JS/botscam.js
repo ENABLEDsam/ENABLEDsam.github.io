@@ -22,7 +22,7 @@ function hover(element, enter, leave){
     element.addEventListener('mouseleave', leave)
 }
 
-hover(nopeNode, e => { //e elementti v" + A1 + "itt" + A1 + "" + A1 + " turhuuttua mutta koodi ei toimi ilman sit" + A1 + "
+hover(nopeNode, e => { //e elementti väittää turhuuttua mutta koodi ei toimi ilman sitä
     // On hover
     nopeNode.style.height = "280px";
     nopeNode.style.width = "280px";
@@ -32,7 +32,7 @@ hover(nopeNode, e => { //e elementti v" + A1 + "itt" + A1 + "" + A1 + " turhuutt
     nopeNode.style.width = "300px";
 })
 
-hover(yepNode, e => { //e elementti v" + A1 + "itt" + A1 + "" + A1 + " turhuuttua mutta koodi ei toimi ilman sit" + A1 + "
+hover(yepNode, e => { //e elementti väittä turhuuttua mutta koodi ei toimi ilman sitä
     // On hover
     yepNode.style.height = "280px";
     yepNode.style.width = "280px";
