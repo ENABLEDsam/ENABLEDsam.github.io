@@ -40,3 +40,7 @@ body{
     position: fixed;
     bottom: -100px;
 }
+.mand{
+    color: red;
+    font-size: smaller;
+}
