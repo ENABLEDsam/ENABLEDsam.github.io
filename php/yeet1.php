@@ -10,6 +10,8 @@ require_once('db_config.php');
 $yescook = $_COOKIE['ayeCookie'];
 $nocook = $_COOKIE['nahCookie'];
 
+
+
 if(!isset($_POST['addName'])){
     header('Location: ../result1.html');
     die();
@@ -34,6 +36,8 @@ if(!isset($_POST['addName'])){
                 'email'     => $email,
                 'luokka'    => "hoyla",
             ]);
+
+            header('Location:../result1.html');
         }
     }
 }

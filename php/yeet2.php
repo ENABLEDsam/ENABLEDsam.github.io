@@ -10,16 +10,18 @@ require_once('db_config.php');
 $yescook = $_COOKIE['ayeCookie'];
 $nocook = $_COOKIE['nahCookie'];
 
+
+
 if(!isset($_POST['addName'])){
-    header('Location: ../result1.html');
+    header('Location: ../result2.html');
     die();
 }else{
     if(!isset($_POST['email'])|| trim($_POST['email']) == ''){
-    header('Location: ../result1.html');
+    header('Location: ../result2.html');
     die();
     }else{
         if(strpos(file_get_contents("../restrictions/curses.txt"),$_POST['name']) !== false){
-        header('Location: ../result1.html');
+        header('Location: ../result2.html');
         die();
         }else{
             $nimi = $_POST['name'];
@@ -34,6 +36,8 @@ if(!isset($_POST['addName'])){
                 'email'     => $email,
                 'luokka'    => "markkinointi",
             ]);
+
+            header('Location:../result2.html');
         }
     }
 }

@@ -40,6 +40,9 @@ body{
     position: fixed;
     bottom: -100px;
 }
+.hidden2{
+visibility: hidden;
+}
 .mand{
     color: red;
     font-size: smaller;
