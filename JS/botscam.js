@@ -465,10 +465,40 @@ function getCookie(cname) {
   }
 
 function maekCook(){
-    document.cookie = "formVanish = true";
+    var f1 = document.getElementById("name").value;
+    var f2 = document.getElementById("email").value;
+
+    if(f1 && f2 != ""){
+        document.cookie = "formVanish = true";
+    }else{
+        document.cookie = "formVanish = false";
+    }
+
+    
 }
 
-if(getCookie("formVanish") == "true"){
 
-    console.log = "yeet"
-}
+
+
+function checkCookie() {
+    let van = getCookie("formVanish");
+    if (van == "true") {
+        formNode.removeChild(formNode.firstElementChild);
+
+        var msg = document.createElement('h1');
+        formNode.appendChild(msg);
+        msg.innerText = "Kiitos ilmoitautumisesta!"
+
+        document.getElementById("fade").style.visibility = "hidden";
+        document.getElementById("fade2").style.visibility = "hidden";
+
+      document.cookie = "formVanish =; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+    }else if(van == "false"){
+        var warn = document.createElement('div');
+        warn.setAttribute('class','alert alert-danger');
+        document.getElementById("warn").appendChild(warn);
+        warn.innerHTML = "<strong>varoitus</strong> teksti kent&auml;t ovat tyhji&auml;."
+
+        document.cookie = "formVanish =; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+    }
+  }

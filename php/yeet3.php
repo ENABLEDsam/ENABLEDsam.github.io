@@ -20,7 +20,7 @@ if(!isset($_POST['addName'])){
     header('Location: ../result3.html');
     die();
     }else{
-        if(strpos(file_get_contents("../restrictions/curses.txt"),$_POST['name']) !== false){
+        if(strpos(file_get_contents("../restrictions/curses.txt"),strtolower($_POST['name'])) !== false){
         header('Location: ../result3.html');
         die();
         }else{
