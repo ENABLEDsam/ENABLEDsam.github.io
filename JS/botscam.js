@@ -20,7 +20,6 @@ var nyo = 0;
 
 function noFunc(){
 
-
     if(prog == 0){
 
         qesNode.innerHTML = ("Kiinnostaisiko sinua ruumiillista ponniskelua teht" + A1 + "v" + A1 +" ty"+ O1 +"?")
@@ -232,14 +231,14 @@ function noFunc(){
 
         nyo ++
 
-        yeetPage()
+        prog++
+        setTimeout(yeetPage, 500);
     }
 
-
+    document.getElementById("progBar").setAttribute("style", "width: " + prog / 21 * 100 + "%;");
 }
 
 function yeFunc(){
-
 
     if(prog == 0){
         mark = 1;
@@ -423,17 +422,21 @@ function yeFunc(){
 
         yems ++
 
-        yeetPage()
+        prog++
+        setTimeout(yeetPage, 500);
     }
 
-
+    document.getElementById("progBar").setAttribute("style", "width: " + prog / 21 * 100 + "%;");
 }
 
 function yeetPage(){
 
+    if(prog == 21){
+
     document.cookie = "ayeCookie = " + yems;
     document.cookie = "nahCookie = " + nyo;
 
+    
 
     if (mark > puhd && mark > kass && mark > houl && mark > cook){
         window.location.href = "result2.html";
@@ -446,6 +449,7 @@ function yeetPage(){
     }else if (cook > puhd && cook > kass && cook > houl && cook > mark){
         window.location.href = "result5.html";
     }
+}
 }
 
 function getCookie(cname) {

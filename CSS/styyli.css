@@ -47,3 +47,9 @@ visibility: hidden;
     color: red;
     font-size: smaller;
 }
+.bottom{
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    left: 0px;
+}
