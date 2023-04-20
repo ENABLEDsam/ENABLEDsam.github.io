@@ -37,10 +37,6 @@ if(!isset($_POST['addName'])){
     header('Location: ../result4.html');
     die();
     }else{
-        if(strpos(file_get_contents("../restrictions/curses.txt"),strtolower($_POST['name'])) !== false){
-        header('Location: ../result4.html');
-        die();
-        }else{
             $knimi = $_POST['name'];
             $query = "INSERT INTO osallistujat (knimi, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10, k11, k12, k13, k14, k15, k16, k17, k18, k19, k20, k21, luokka)
             VALUES (:knimi, :k1, :k2, :k3, :k4, :k5, :k6, :k7, :k8, :k9, :k10, :k11, :k12, :k13, :k14, :k15, :k16, :k17, :k18, :k19, :k20, :k21, :luokka)";
@@ -74,4 +70,3 @@ if(!isset($_POST['addName'])){
             header('Location:../result4.html');
         }
     }
-}

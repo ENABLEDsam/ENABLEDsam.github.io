@@ -510,9 +510,8 @@ function getCookie(cname) {
 
 function maekCook(){
     var f1 = document.getElementById("name").value;
-    var f2 = document.getElementById("email").value;
 
-    if(f1 && f2 != ""){
+    if(f1 != ""){
         document.cookie = "formVanish = true";
     }else{
         document.cookie = "formVanish = false";
