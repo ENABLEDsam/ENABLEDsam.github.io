@@ -454,42 +454,42 @@ function yeetPage(){
     if(prog == 21){
 
     
-    document.cookie = "k1 = " + k1;
-    document.cookie = "k1 = " + k2;
-    document.cookie = "k1 = " + k3;
-    document.cookie = "k1 = " + k4;
-    document.cookie = "k1 = " + k5;
-    document.cookie = "k1 = " + k6;
-    document.cookie = "k1 = " + k7;
-    document.cookie = "k1 = " + k8;
-    document.cookie = "k1 = " + k9;
-    document.cookie = "k1 = " + k10;
-    document.cookie = "k1 = " + k11;
-    document.cookie = "k1 = " + k12;
-    document.cookie = "k1 = " + k13;
-    document.cookie = "k1 = " + k14;
-    document.cookie = "k1 = " + k15;
-    document.cookie = "k1 = " + k16;
-    document.cookie = "k1 = " + k17;
-    document.cookie = "k1 = " + k18;
-    document.cookie = "k1 = " + k19;
-    document.cookie = "k1 = " + k20;
-    document.cookie = "k1 = " + k21;
+        document.cookie = "k1 = " + k1;
+        document.cookie = "k1 = " + k2;
+        document.cookie = "k1 = " + k3;
+        document.cookie = "k1 = " + k4;
+        document.cookie = "k1 = " + k5;
+        document.cookie = "k1 = " + k6;
+        document.cookie = "k1 = " + k7;
+        document.cookie = "k1 = " + k8;
+        document.cookie = "k1 = " + k9;
+        document.cookie = "k1 = " + k10;
+        document.cookie = "k1 = " + k11;
+        document.cookie = "k1 = " + k12;
+        document.cookie = "k1 = " + k13;
+        document.cookie = "k1 = " + k14;
+        document.cookie = "k1 = " + k15;
+        document.cookie = "k1 = " + k16;
+        document.cookie = "k1 = " + k17;
+        document.cookie = "k1 = " + k18;
+        document.cookie = "k1 = " + k19;
+        document.cookie = "k1 = " + k20;
+        document.cookie = "k1 = " + k21;
 
     
 
-    if (mark > puhd && mark > kass && mark > houl && mark > cook){
-        window.location.href = "result2.html";
-    }else if (puhd > mark && puhd > kass && puhd > houl && puhd > cook){
-        window.location.href = "result3.html";
-    }else if (kass > puhd && kass > mark && kass > houl && kass > cook){
-        window.location.href = "result4.html";
-    }else if (houl > puhd && houl > kass && houl > mark && houl > cook){
-        window.location.href = "result1.html";
-    }else if (cook > puhd && cook > kass && cook > houl && cook > mark){
-        window.location.href = "result5.html";
+        if (mark > puhd && mark > kass && mark > houl && mark > cook){
+            window.location.href = "result2.html";
+        }else if (puhd > mark && puhd > kass && puhd > houl && puhd > cook){
+            window.location.href = "result3.html";
+        }else if (kass > puhd && kass > mark && kass > houl && kass > cook){
+            window.location.href = "result4.html";
+        }else if (houl > puhd && houl > kass && houl > mark && houl > cook){
+            window.location.href = "result1.html";
+        }else if (cook > puhd && cook > kass && cook > houl && cook > mark){
+            window.location.href = "result5.html";
+        }
     }
-}
 }
 
 function getCookie(cname) {
