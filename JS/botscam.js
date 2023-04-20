@@ -46,7 +46,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k1 = "n"
     }else if(prog == 1){
         mark ++;
         kass ++;
@@ -55,7 +55,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k2 = "n"
     }else if(prog == 2){
         cook ++;
         puhd ++;
@@ -66,7 +66,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k3 = "n"
     }else if(prog == 3){
         houl ++;
         puhd ++;
@@ -77,7 +77,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k4 = "n"
     }else if(prog == 4){
         houl ++;
         puhd ++;
@@ -88,7 +88,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k5 = "n"
     }else if(prog == 5){
         puhd ++
         houl ++ 
@@ -98,7 +98,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k6 = "n"
     }else if(prog == 6){
         mark ++;
         puhd ++;
@@ -109,7 +109,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k7 = "n"
     }else if (prog == 7){
         puhd ++
         cook ++
@@ -120,7 +120,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k8 = "n"
     }else if(prog == 8){
         mark ++
         kass ++
@@ -130,7 +130,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k9 = "n"
     }else if(prog == 9){
         puhd ++
         cook ++
@@ -141,7 +141,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k10 = "n"
     }else if(prog == 10){
         puhd ++
         cook ++
@@ -152,7 +152,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k11 = "n"
     }else if(prog == 11){
         kass ++
         cook ++
@@ -163,7 +163,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k12 = "n"
     }else if(prog == 12){
         puhd = 1;
         kass = 1;
@@ -173,7 +173,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k13 = "n"
     }else if(prog == 13){
         kass ++
         cook ++
@@ -184,7 +184,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k14 = "n"
     }else if(prog == 14){
         houl ++;
         puhd ++;
@@ -195,7 +195,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k15 = "n"
     }else if(prog == 15){
         mark ++;
         kass ++;
@@ -205,7 +205,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k16 = "n"
     }else if(prog == 16){
         puhd ++;
         cook ++;
@@ -214,7 +214,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k17 = "n"
     }else if(prog == 17){
         mark ++;
         kass ++;
@@ -224,7 +224,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k18 = "n"
     }else if(prog == 18){
         mark ++;
         kass ++;
@@ -234,7 +234,7 @@ function noFunc(){
 
         prog ++
 
-        
+        k19 = "n"
     }else if(prog == 19){
         kass ++;
         houl ++;
@@ -243,13 +243,13 @@ function noFunc(){
 
         prog ++
 
-        
+        k20 = "n"
     }else if(prog == 20){
         mark ++;
         puhd ++;
         cook ++;
 
-        
+        k21 = "n"
 
         prog++
         setTimeout(yeetPage, 500);
@@ -271,7 +271,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k1 = "k"
     }else if(prog == 1){
         houl ++;
         cook ++;
@@ -281,7 +281,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k2 = "k"
     }else if(prog == 2){
         houl ++; 
 
@@ -289,7 +289,7 @@ function yeFunc(){
 
         prog ++
 
-       
+        k3 = "k"
     }else if(prog == 3){
         cook ++;
 
@@ -297,7 +297,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k4 = "k"
     }else if(prog == 4){
         mark ++
 
@@ -305,7 +305,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k5 = "k"
     }else if(prog == 5){
         mark ++
         kass ++
@@ -314,7 +314,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k6 = "k"
     }else if(prog == 6){
         houl ++
 
@@ -322,7 +322,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k7 = "k"
     }else if(prog == 7){
         kass ++
 
@@ -330,7 +330,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k8 = "k"
     }else if(prog == 8){
         puhd ++
         cook ++
@@ -339,7 +339,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k9 = "k"
     }else if(prog == 9){
         kass ++
 
@@ -347,7 +347,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k10 = "k"
     }else if(prog == 10){
         kass ++
 
@@ -355,7 +355,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k11 = "i"
     }else if(prog == 11){
         puhd ++
 
@@ -363,7 +363,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k12 = "k"
     }else if(prog == 12){
         mark ++
         cook ++
@@ -372,7 +372,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k13 = "k"
     }else if(prog == 13){
         puhd ++;
 
@@ -380,7 +380,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k14 = "k"
     }else if(prog == 14){
         mark ++;
 
@@ -388,7 +388,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k15 = "k"
     }else if(prog == 15){
         puhd ++;
         cook ++;
@@ -397,7 +397,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k16 = "k"
     }else if(prog == 16){
         mark ++;
         kass ++;
@@ -407,7 +407,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k17 = "k"
     }else if(prog == 17){
         puhd ++;
         cook ++;
@@ -416,7 +416,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k18 = "k"
     }else if(prog == 18){
         puhd ++;
         houl ++;
@@ -425,7 +425,7 @@ function yeFunc(){
 
         prog ++
 
-        
+        k19 = "k"
     }else if(prog == 19){
         mark ++;
         puhd ++;
@@ -435,12 +435,12 @@ function yeFunc(){
 
         prog ++
 
-        
+        k20 = "k"
     }else if(prog == 20){
         kass ++;
         houl ++;
 
-        
+        k21 = "k"
 
         prog++
         setTimeout(yeetPage, 500);
@@ -454,7 +454,27 @@ function yeetPage(){
     if(prog == 21){
 
     
-    document.cookie = "k1Cookie = uwu";
+    document.cookie = "k1 = " + k1;
+    document.cookie = "k1 = " + k2;
+    document.cookie = "k1 = " + k3;
+    document.cookie = "k1 = " + k4;
+    document.cookie = "k1 = " + k5;
+    document.cookie = "k1 = " + k6;
+    document.cookie = "k1 = " + k7;
+    document.cookie = "k1 = " + k8;
+    document.cookie = "k1 = " + k9;
+    document.cookie = "k1 = " + k10;
+    document.cookie = "k1 = " + k11;
+    document.cookie = "k1 = " + k12;
+    document.cookie = "k1 = " + k13;
+    document.cookie = "k1 = " + k14;
+    document.cookie = "k1 = " + k15;
+    document.cookie = "k1 = " + k16;
+    document.cookie = "k1 = " + k17;
+    document.cookie = "k1 = " + k18;
+    document.cookie = "k1 = " + k19;
+    document.cookie = "k1 = " + k20;
+    document.cookie = "k1 = " + k21;
 
     
 
