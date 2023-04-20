@@ -13,8 +13,28 @@ var kass = 0;
 var houl = 0;
 var prog = 0;
 var cook = 0;
-var yems = 0;
-var nyo = 0;
+var k1 = null;
+var k2 = null;
+var k3 = null;
+var k4 = null;
+var k5 = null;
+var k6 = null;
+var k7 = null;
+var k8 = null;
+var k9 = null;
+var k10 = null;
+var k11 = null;
+var k12 = null;
+var k13 = null;
+var k14 = null;
+var k15 = null;
+var k16 = null;
+var k17 = null;
+var k18 = null;
+var k19 = null;
+var k20 = null;
+var k21 = null;
+
 
 //functiot
 
@@ -26,7 +46,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 1){
         mark ++;
         kass ++;
@@ -35,7 +55,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 2){
         cook ++;
         puhd ++;
@@ -46,7 +66,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 3){
         houl ++;
         puhd ++;
@@ -57,7 +77,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 4){
         houl ++;
         puhd ++;
@@ -68,7 +88,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 5){
         puhd ++
         houl ++ 
@@ -78,7 +98,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 6){
         mark ++;
         puhd ++;
@@ -89,7 +109,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if (prog == 7){
         puhd ++
         cook ++
@@ -100,7 +120,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 8){
         mark ++
         kass ++
@@ -110,7 +130,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 9){
         puhd ++
         cook ++
@@ -121,7 +141,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 10){
         puhd ++
         cook ++
@@ -132,7 +152,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 11){
         kass ++
         cook ++
@@ -143,7 +163,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 12){
         puhd = 1;
         kass = 1;
@@ -153,7 +173,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 13){
         kass ++
         cook ++
@@ -164,7 +184,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 14){
         houl ++;
         puhd ++;
@@ -175,7 +195,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 15){
         mark ++;
         kass ++;
@@ -185,7 +205,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 16){
         puhd ++;
         cook ++;
@@ -194,7 +214,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 17){
         mark ++;
         kass ++;
@@ -204,7 +224,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 18){
         mark ++;
         kass ++;
@@ -214,7 +234,7 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 19){
         kass ++;
         houl ++;
@@ -223,13 +243,13 @@ function noFunc(){
 
         prog ++
 
-        nyo ++
+        
     }else if(prog == 20){
         mark ++;
         puhd ++;
         cook ++;
 
-        nyo ++
+        
 
         prog++
         setTimeout(yeetPage, 500);
@@ -251,7 +271,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 1){
         houl ++;
         cook ++;
@@ -261,7 +281,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 2){
         houl ++; 
 
@@ -269,7 +289,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+       
     }else if(prog == 3){
         cook ++;
 
@@ -277,7 +297,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 4){
         mark ++
 
@@ -285,7 +305,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 5){
         mark ++
         kass ++
@@ -294,7 +314,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 6){
         houl ++
 
@@ -302,7 +322,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 7){
         kass ++
 
@@ -310,7 +330,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 8){
         puhd ++
         cook ++
@@ -319,7 +339,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 9){
         kass ++
 
@@ -327,7 +347,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 10){
         kass ++
 
@@ -335,7 +355,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 11){
         puhd ++
 
@@ -343,7 +363,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 12){
         mark ++
         cook ++
@@ -352,7 +372,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 13){
         puhd ++;
 
@@ -360,7 +380,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 14){
         mark ++;
 
@@ -368,7 +388,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 15){
         puhd ++;
         cook ++;
@@ -377,7 +397,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 16){
         mark ++;
         kass ++;
@@ -387,7 +407,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 17){
         puhd ++;
         cook ++;
@@ -396,7 +416,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 18){
         puhd ++;
         houl ++;
@@ -405,7 +425,7 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 19){
         mark ++;
         puhd ++;
@@ -415,12 +435,12 @@ function yeFunc(){
 
         prog ++
 
-        yems ++
+        
     }else if(prog == 20){
         kass ++;
         houl ++;
 
-        yems ++
+        
 
         prog++
         setTimeout(yeetPage, 500);
@@ -433,8 +453,8 @@ function yeetPage(){
 
     if(prog == 21){
 
-    document.cookie = "ayeCookie = " + yems;
-    document.cookie = "nahCookie = " + nyo;
+    
+    document.cookie = "k1Cookie = uwu";
 
     
 
