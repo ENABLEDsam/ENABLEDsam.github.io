@@ -46,7 +46,7 @@ function noFunc(){
 
         prog ++
 
-        k1 = "n"
+        k1 = "e"
     }else if(prog == 1){
         mark ++;
         kass ++;
@@ -55,7 +55,7 @@ function noFunc(){
 
         prog ++
 
-        k2 = "n"
+        k2 = "e"
     }else if(prog == 2){
         cook ++;
         puhd ++;
@@ -66,7 +66,7 @@ function noFunc(){
 
         prog ++
 
-        k3 = "n"
+        k3 = "e"
     }else if(prog == 3){
         houl ++;
         puhd ++;
@@ -77,7 +77,7 @@ function noFunc(){
 
         prog ++
 
-        k4 = "n"
+        k4 = "e"
     }else if(prog == 4){
         houl ++;
         puhd ++;
@@ -88,7 +88,7 @@ function noFunc(){
 
         prog ++
 
-        k5 = "n"
+        k5 = "e"
     }else if(prog == 5){
         puhd ++
         houl ++ 
@@ -98,7 +98,7 @@ function noFunc(){
 
         prog ++
 
-        k6 = "n"
+        k6 = "e"
     }else if(prog == 6){
         mark ++;
         puhd ++;
@@ -109,7 +109,7 @@ function noFunc(){
 
         prog ++
 
-        k7 = "n"
+        k7 = "e"
     }else if (prog == 7){
         puhd ++
         cook ++
@@ -120,7 +120,7 @@ function noFunc(){
 
         prog ++
 
-        k8 = "n"
+        k8 = "e"
     }else if(prog == 8){
         mark ++
         kass ++
@@ -130,7 +130,7 @@ function noFunc(){
 
         prog ++
 
-        k9 = "n"
+        k9 = "e"
     }else if(prog == 9){
         puhd ++
         cook ++
@@ -141,7 +141,7 @@ function noFunc(){
 
         prog ++
 
-        k10 = "n"
+        k10 = "e"
     }else if(prog == 10){
         puhd ++
         cook ++
@@ -152,7 +152,7 @@ function noFunc(){
 
         prog ++
 
-        k11 = "n"
+        k11 = "e"
     }else if(prog == 11){
         kass ++
         cook ++
@@ -163,7 +163,7 @@ function noFunc(){
 
         prog ++
 
-        k12 = "n"
+        k12 = "e"
     }else if(prog == 12){
         puhd = 1;
         kass = 1;
@@ -173,7 +173,7 @@ function noFunc(){
 
         prog ++
 
-        k13 = "n"
+        k13 = "e"
     }else if(prog == 13){
         kass ++
         cook ++
@@ -184,7 +184,7 @@ function noFunc(){
 
         prog ++
 
-        k14 = "n"
+        k14 = "e"
     }else if(prog == 14){
         houl ++;
         puhd ++;
@@ -195,7 +195,7 @@ function noFunc(){
 
         prog ++
 
-        k15 = "n"
+        k15 = "e"
     }else if(prog == 15){
         mark ++;
         kass ++;
@@ -205,7 +205,7 @@ function noFunc(){
 
         prog ++
 
-        k16 = "n"
+        k16 = "e"
     }else if(prog == 16){
         puhd ++;
         cook ++;
@@ -214,7 +214,7 @@ function noFunc(){
 
         prog ++
 
-        k17 = "n"
+        k17 = "e"
     }else if(prog == 17){
         mark ++;
         kass ++;
@@ -224,7 +224,7 @@ function noFunc(){
 
         prog ++
 
-        k18 = "n"
+        k18 = "e"
     }else if(prog == 18){
         mark ++;
         kass ++;
@@ -234,7 +234,7 @@ function noFunc(){
 
         prog ++
 
-        k19 = "n"
+        k19 = "e"
     }else if(prog == 19){
         kass ++;
         houl ++;
@@ -243,13 +243,13 @@ function noFunc(){
 
         prog ++
 
-        k20 = "n"
+        k20 = "e"
     }else if(prog == 20){
         mark ++;
         puhd ++;
         cook ++;
 
-        k21 = "n"
+        k21 = "e"
 
         prog++
         setTimeout(yeetPage, 500);
