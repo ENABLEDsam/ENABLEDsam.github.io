@@ -455,26 +455,26 @@ function yeetPage(){
 
     
         document.cookie = "k1 = " + k1;
-        document.cookie = "k1 = " + k2;
-        document.cookie = "k1 = " + k3;
-        document.cookie = "k1 = " + k4;
-        document.cookie = "k1 = " + k5;
-        document.cookie = "k1 = " + k6;
-        document.cookie = "k1 = " + k7;
-        document.cookie = "k1 = " + k8;
-        document.cookie = "k1 = " + k9;
-        document.cookie = "k1 = " + k10;
-        document.cookie = "k1 = " + k11;
-        document.cookie = "k1 = " + k12;
-        document.cookie = "k1 = " + k13;
-        document.cookie = "k1 = " + k14;
-        document.cookie = "k1 = " + k15;
-        document.cookie = "k1 = " + k16;
-        document.cookie = "k1 = " + k17;
-        document.cookie = "k1 = " + k18;
-        document.cookie = "k1 = " + k19;
-        document.cookie = "k1 = " + k20;
-        document.cookie = "k1 = " + k21;
+        document.cookie = "k2 = " + k2;
+        document.cookie = "k3 = " + k3;
+        document.cookie = "k4 = " + k4;
+        document.cookie = "k5 = " + k5;
+        document.cookie = "k6 = " + k6;
+        document.cookie = "k7 = " + k7;
+        document.cookie = "k8 = " + k8;
+        document.cookie = "k9 = " + k9;
+        document.cookie = "k10 = " + k10;
+        document.cookie = "k11 = " + k11;
+        document.cookie = "k12 = " + k12;
+        document.cookie = "k13 = " + k13;
+        document.cookie = "k14 = " + k14;
+        document.cookie = "k15 = " + k15;
+        document.cookie = "k16 = " + k16;
+        document.cookie = "k17 = " + k17;
+        document.cookie = "k18 = " + k18;
+        document.cookie = "k19 = " + k19;
+        document.cookie = "k20 = " + k20;
+        document.cookie = "k21 = " + k21;
 
     
 
