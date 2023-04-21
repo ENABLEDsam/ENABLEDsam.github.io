@@ -488,6 +488,76 @@ function yeetPage(){
             window.location.href = "result1.html";
         }else if (cook > puhd && cook > kass && cook > houl && cook > mark){
             window.location.href = "result5.html";
+        }else if(mark == puhd && mark > kass && mark > houl && mark > cook){
+            var temp = Math.floor(Math.random() * 2) + 1;
+            if(temp == 1){
+                window.location.href = "result2.html";
+            }else{
+                window.location.href = "result3.html";
+            }
+        }else if(mark > puhd && mark == kass && mark > houl && mark > cook){
+            var temp = Math.floor(Math.random() * 2) + 1;
+            if(temp == 1){
+                window.location.href = "result2.html";
+            }else{
+                window.location.href = "result4.html";
+            }
+        }else if(mark > puhd && mark > kass && mark == houl && mark > cook){
+            var temp = Math.floor(Math.random() * 2) + 1;
+            if(temp == 1){
+                window.location.href = "result2.html";
+            }else{
+                window.location.href = "result1.html";
+            }
+        }else if(mark > puhd && mark > kass && mark > houl && mark == cook){
+            var temp = Math.floor(Math.random() * 2) + 1;
+            if(temp == 1){
+                window.location.href = "result2.html";
+            }else{
+                window.location.href = "result5.html";
+            }
+        }else if(puhd > mark && puhd == kass && puhd > houl && puhd > cook){
+            var temp = Math.floor(Math.random() * 2) + 1;
+            if(temp == 1){
+                window.location.href = "result3.html";
+            }else{
+                window.location.href = "result4.html";
+            }
+        }else if(puhd > mark && puhd > kass && puhd == houl && puhd > cook){
+            var temp = Math.floor(Math.random() * 2) + 1;
+            if(temp == 1){
+                window.location.href = "result3.html";
+            }else{
+                window.location.href = "result1.html";
+            }
+        }else if(puhd > mark && puhd > kass && puhd > houl && puhd == cook){
+            var temp = Math.floor(Math.random() * 2) + 1;
+            if(temp == 1){
+                window.location.href = "result3.html";
+            }else{
+                window.location.href = "result5.html";
+            }
+        }else if(kass > puhd && kass > mark && kass == houl && kass > cook){
+            var temp = Math.floor(Math.random() * 2) + 1;
+            if(temp == 1){
+                window.location.href = "result4.html";
+            }else{
+                window.location.href = "result1.html";
+            }
+        }else if(kass > puhd && kass > mark && kass > houl && kass == cook){
+            var temp = Math.floor(Math.random() * 2) + 1;
+            if(temp == 1){
+                window.location.href = "result4.html";
+            }else{
+                window.location.href = "result5.html";
+            }
+        }else if(houl > puhd && houl > kass && houl > mark && houl == cook){
+            var temp = Math.floor(Math.random() * 2) + 1;
+            if(temp == 1){
+                window.location.href = "result4.html";
+            }else{
+                window.location.href = "result1.html";
+            }
         }
     }
 }
