@@ -13,6 +13,8 @@ var kass = 0;
 var houl = 0;
 var prog = 0;
 var cook = 0;
+var yems = 0;
+var nyo = 0;
 var k1 = null;
 var k2 = null;
 var k3 = null;
@@ -46,6 +48,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k1 = "e"
     }else if(prog == 1){
         mark ++;
@@ -55,6 +58,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k2 = "e"
     }else if(prog == 2){
         cook ++;
@@ -66,6 +70,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k3 = "e"
     }else if(prog == 3){
         houl ++;
@@ -77,6 +82,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k4 = "e"
     }else if(prog == 4){
         houl ++;
@@ -88,6 +94,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k5 = "e"
     }else if(prog == 5){
         puhd ++
@@ -98,6 +105,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k6 = "e"
     }else if(prog == 6){
         mark ++;
@@ -109,6 +117,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k7 = "e"
     }else if (prog == 7){
         puhd ++
@@ -120,6 +129,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k8 = "e"
     }else if(prog == 8){
         mark ++
@@ -130,6 +140,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k9 = "e"
     }else if(prog == 9){
         puhd ++
@@ -141,6 +152,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k10 = "e"
     }else if(prog == 10){
         puhd ++
@@ -152,6 +164,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k11 = "e"
     }else if(prog == 11){
         kass ++
@@ -163,6 +176,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k12 = "e"
     }else if(prog == 12){
         puhd = 1;
@@ -173,6 +187,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k13 = "e"
     }else if(prog == 13){
         kass ++
@@ -184,6 +199,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k14 = "e"
     }else if(prog == 14){
         houl ++;
@@ -195,6 +211,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k15 = "e"
     }else if(prog == 15){
         mark ++;
@@ -205,6 +222,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k16 = "e"
     }else if(prog == 16){
         puhd ++;
@@ -214,6 +232,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k17 = "e"
     }else if(prog == 17){
         mark ++;
@@ -224,6 +243,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k18 = "e"
     }else if(prog == 18){
         mark ++;
@@ -234,6 +254,7 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k19 = "e"
     }else if(prog == 19){
         kass ++;
@@ -243,12 +264,14 @@ function noFunc(){
 
         prog ++
 
+        nyo ++
         k20 = "e"
     }else if(prog == 20){
         mark ++;
         puhd ++;
         cook ++;
 
+        nyo ++
         k21 = "e"
 
         prog++
@@ -271,6 +294,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k1 = "k"
     }else if(prog == 1){
         houl ++;
@@ -281,6 +305,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k2 = "k"
     }else if(prog == 2){
         houl ++; 
@@ -289,6 +314,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k3 = "k"
     }else if(prog == 3){
         cook ++;
@@ -297,6 +323,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k4 = "k"
     }else if(prog == 4){
         mark ++
@@ -305,6 +332,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k5 = "k"
     }else if(prog == 5){
         mark ++
@@ -314,6 +342,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k6 = "k"
     }else if(prog == 6){
         houl ++
@@ -322,6 +351,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k7 = "k"
     }else if(prog == 7){
         kass ++
@@ -330,6 +360,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k8 = "k"
     }else if(prog == 8){
         puhd ++
@@ -339,6 +370,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k9 = "k"
     }else if(prog == 9){
         kass ++
@@ -347,6 +379,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k10 = "k"
     }else if(prog == 10){
         kass ++
@@ -355,7 +388,8 @@ function yeFunc(){
 
         prog ++
 
-        k11 = "i"
+        yems ++
+        k11 = "k"
     }else if(prog == 11){
         puhd ++
 
@@ -363,6 +397,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k12 = "k"
     }else if(prog == 12){
         mark ++
@@ -372,6 +407,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k13 = "k"
     }else if(prog == 13){
         puhd ++;
@@ -380,6 +416,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k14 = "k"
     }else if(prog == 14){
         mark ++;
@@ -388,6 +425,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k15 = "k"
     }else if(prog == 15){
         puhd ++;
@@ -397,6 +435,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k16 = "k"
     }else if(prog == 16){
         mark ++;
@@ -407,6 +446,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k17 = "k"
     }else if(prog == 17){
         puhd ++;
@@ -416,6 +456,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k18 = "k"
     }else if(prog == 18){
         puhd ++;
@@ -425,6 +466,7 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k19 = "k"
     }else if(prog == 19){
         mark ++;
@@ -435,11 +477,13 @@ function yeFunc(){
 
         prog ++
 
+        yems ++
         k20 = "k"
     }else if(prog == 20){
         kass ++;
         houl ++;
 
+        yems ++
         k21 = "k"
 
         prog++
@@ -475,6 +519,8 @@ function yeetPage(){
         document.cookie = "k19 = " + k19;
         document.cookie = "k20 = " + k20;
         document.cookie = "k21 = " + k21;
+        document.cookie = "no = " + nyo;
+        document.cookie = "ye = " + yems;
 
     
 

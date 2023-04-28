@@ -28,6 +28,8 @@ $k18 = $_COOKIE['k18'];
 $k19 = $_COOKIE['k19'];
 $k20 = $_COOKIE['k20'];
 $k21 = $_COOKIE['k21'];
+$ei = $_COOKIE['no'];
+$kyll = $_COOKIE['ye'];
 
 if(!isset($_POST['addName'])){
     header('Location: ../result4.html');
@@ -38,8 +40,8 @@ if(!isset($_POST['addName'])){
     die();
     }else{
             $knimi = $_POST['name'];
-            $query = "INSERT INTO osallistujat (knimi, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10, k11, k12, k13, k14, k15, k16, k17, k18, k19, k20, k21, luokka)
-            VALUES (:knimi, :k1, :k2, :k3, :k4, :k5, :k6, :k7, :k8, :k9, :k10, :k11, :k12, :k13, :k14, :k15, :k16, :k17, :k18, :k19, :k20, :k21, :luokka)";
+            $query = "INSERT INTO osallistujat (knimi, k1, k2, k3, k4, k5, k6, k7, k8, k9, k10, k11, k12, k13, k14, k15, k16, k17, k18, k19, k20, k21, luokka, kyll, ei)
+            VALUES (:knimi, :k1, :k2, :k3, :k4, :k5, :k6, :k7, :k8, :k9, :k10, :k11, :k12, :k13, :k14, :k15, :k16, :k17, :k18, :k19, :k20, :k21, :luokka, :kyll, :ei)";
             $result = $db_connection->prepare($query);
             $result->execute([
                 'knimi'     => $knimi,
@@ -65,6 +67,8 @@ if(!isset($_POST['addName'])){
                 'k20'       => $k20,
                 'k21'       => $k21,
                 'luokka'    => "kassa",
+                'kyll'      => $kyll,
+                'ei'        => $ei,
             ]);
 
             header('Location:../result4.html');

@@ -8,10 +8,10 @@
         $dirc = $_SESSION['dirc'];
         if($dirc == "DESC"){
             $_SESSION['dirc'] = "ASC";
-
+            
         }else{
             $_SESSION['dirc'] = "DESC";
-
+            
         }
     }else{
         if(!isset($_POST['search'])){
