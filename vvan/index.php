@@ -6,6 +6,8 @@
 
     $_SESSION['flag'] = null;
 
+    $_SESSION['dirc'] = "DESC";
+
     if(isset($_POST['login'])){
         if(!$_POST['user'] == '' && !$_POST['pass'] == ''){
             $user = $_SESSION['user'] = $_POST['user'];
