@@ -33,7 +33,7 @@ if(!isset($_POST['addName'])){
     header('Location: ../result4.html');
     die();
 }else{
-    if(!isset($_POST['email'])|| trim($_POST['email']) == ''){
+    if(strpos(file_get_contents("../restrictions/curses.txt"),strtolower($_POST['name'])) !== false){
     header('Location: ../result4.html');
     die();
     }else{

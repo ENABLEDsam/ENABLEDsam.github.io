@@ -29,12 +29,27 @@
             $query = "SELECT * FROM osallistujat ORDER BY osallistujat . id $dirc";
 
             $results = $db_connection -> query($query);
-        }else{
+        }elseif($_POST['amount'] == ''){
             $definer = $_POST['definer'];
             $find = $_POST['find'];
             
 
             $query = "SELECT * FROM osallistujat WHERE $definer LIKE '$find' ORDER BY osallistujat . id $dirc";
+
+            $results = $db_connection -> query($query);
+        }elseif($_POST['find'] == ''){
+            $amnt = $_POST['amount'];
+
+            $query = "SELECT * FROM osallistujat ORDER BY osallistujat . id $dirc LIMIT $amnt";
+
+            $results = $db_connection -> query($query);
+        }else{
+            $definer = $_POST['definer'];
+            $find = $_POST['find'];
+            $amnt = $_POST['amount'];
+
+
+            $query = "SELECT * FROM osallistujat WHERE $definer LIKE '$find' ORDER BY osallistujat . id $dirc LIMIT $amnt";
 
             $results = $db_connection -> query($query);
         }
@@ -67,6 +82,11 @@
   <div class="container-fluid">
     <a class="navbar-brand" href="javascript:void(0)"> <img src="../img/ViKi_logo.png" alt="logo" class="logo"> </a>
         <ul class="navbar-nav">
+            <li class="nav-item">
+                <div class="d-flex">
+                    <button class="btn btn-info mt-3" id="smoll">suurenettu &#8649;</button>
+                </div>
+            </li>
             <li class="nav-item">
                 <form class="d-flex" method="post">
                     <button name="direc" type="submit" class="btn btn-info mt-3"><?php 
