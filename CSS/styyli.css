@@ -58,3 +58,7 @@ visibility: hidden;
     height: 300px;
     image-rendering: pixelated;
 }
+.logo{
+    width: 50px;
+    height: 50px;
+}

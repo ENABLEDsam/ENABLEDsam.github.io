@@ -4,13 +4,29 @@
 
     session_start();
 
+    if(isset($_POST['direc'])){
+        $dirc = $_SESSION['dirc'];
+        if($dirc == "DESC"){
+            $_SESSION['dirc'] = "ASC";
+
+        }else{
+            $_SESSION['dirc'] = "DESC";
+
+        }
+    }else{
+        if(!isset($_POST['search'])){
+            $_SESSION['dirc'] = "DESC";
+        }
+    }
+
     if(!isset($_SESSION['user']) && !isset($_SESSION['pass'])){
         header("Location: login.php");
     }
 
     if(isset($_POST['search'])){
-        if($_POST['find'] == ''){
-            $query = "SELECT * FROM osallistujat ORDER BY osallistujat . id DESC";
+        $dirc = $_SESSION['dirc'];
+        if($_POST['find'] == '' && $_POST['amount'] == ''){
+            $query = "SELECT * FROM osallistujat ORDER BY osallistujat . id $dirc";
 
             $results = $db_connection -> query($query);
         }else{
@@ -18,15 +34,19 @@
             $find = $_POST['find'];
             
 
-            $query = "SELECT * FROM osallistujat WHERE $definer LIKE '$find' ORDER BY osallistujat . id DESC";
+            $query = "SELECT * FROM osallistujat WHERE $definer LIKE '$find' ORDER BY osallistujat . id $dirc";
 
             $results = $db_connection -> query($query);
         }
     }else{
-        $query = "SELECT * FROM osallistujat ORDER BY osallistujat . id DESC";
+        $dirc = $_SESSION['dirc'];
+
+        $query = "SELECT * FROM osallistujat ORDER BY osallistujat . id $dirc";
 
         $results = $db_connection -> query($query);
     }
+
+    
     
 ?>
 
@@ -45,23 +65,45 @@
 
 <nav class="navbar navbar-expand-sm navbar-primary bg-primary .sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+    <a class="navbar-brand" href="javascript:void(0)"> <img src="../img/ViKi_logo.png" alt="logo" class="logo"> </a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <form class="d-flex" method="post">
+                    <button name="direc" type="submit" class="btn btn-info mt-3"><?php 
+                    $dirc = $_SESSION['dirc'];
+                    
+                    if($dirc == "DESC"){
+                        echo "&darr;&darr;";
+                    }else{
+                        echo "&uarr;&uarr;";
+                    }
+                    
+                    ?></button>
+                </form>
+            </li>
+            <li class="nav-item">
+                <form class="d-flex" method="post">
+                    <div class="d-flex">
+                        <select name="definer" id="definer" class="form-select mt-3">
+                            <option name="knimi" value="knimi">nimikeistä</option>
+                            <option name="luokka" value="luokka">luokasta</option>
+                            <option name="mov" value="mov">lähetyksestä</option>
+                        </select>
+                    </div>
 
-        <form class="d-flex" method="post">
-            <select name="definer" id="definer" class="form-select mt-3">
-                <option name="knimi" value="knimi">nimikeistä</option>
-                <option name="luokka" value="luokka">luokasta</option>
-                <option name="mov" value="mov">lähetyksestä</option>
-            </select>
+                    <div id="changer" class="d-flex">
+                        <input class="form-control mt-3" type="text" id="find" name="find" placeholder="etsi">
+                    </div>
 
-            <div id="changer">
-                <input class="form-control mt-3" type="text" id="find" name="find" placeholder="etsi">
-            </div>
+                    <div class="d-flex">
+                        <input class="form-control mt-3" type="number" id="amount" name="amount" placeholder="kuinka monta riviä?">
+                    </div>
 
-            <button class="btn btn-info mt-3" name="search" type="submit">etsi</button>
-        </form>
+                    <button class="btn btn-info mt-3" name="search" type="submit">etsi</button>
+                </form>
+            </li>
+        </ul>
     </div>
-  </div>
 </nav>
     
 <div class="container">
