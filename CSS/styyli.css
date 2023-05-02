@@ -70,3 +70,8 @@ visibility: hidden;
     background-color: rgba(255, 255, 255, 1) !important;
     border-color: rgba(191, 191, 191, 1) !important;
 }
+.chapters{
+    background-color: rgba(70, 172, 193, 1);
+    width: 200px;
+    height: 500px;
+}
