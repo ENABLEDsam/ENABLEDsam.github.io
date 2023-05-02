@@ -4,30 +4,48 @@
 
     session_start();
 
-    if(isset($_POST['direc'])){
-        $dirc = $_SESSION['dirc'];
-        if($dirc == "DESC"){
-            $_SESSION['dirc'] = "ASC";
-            header("Refresh:0.5");
-        }else{
-            $_SESSION['dirc'] = "DESC";
-            header("Refresh:0.5");
-        }
-    }
-
     if(!isset($_SESSION['user']) && !isset($_SESSION['pass'])){
         header("Location: index.php");
     }
 
+    if(isset($_POST['direc'])){
+        $dirc = $_SESSION['dirc'];
+        if($dirc == "DESC"){
+            $_SESSION['dirc'] = "ASC";
+            header("Refresh:0.1");
+        }else{
+            $_SESSION['dirc'] = "DESC";
+            header("Refresh:0.1");
+        }
+    }
+
+    if(isset($_POST['minify'])){
+        $smoll = $_SESSION['mini'];
+        if($smoll == false){
+            $_SESSION['mini'] = true;
+            header("Refresh:0.1");
+        }else{
+            $_SESSION['mini'] = false;
+            header("Refresh:0.1");
+        }
+    }
+
     if(isset($_POST['search'])){
         $dirc = $_SESSION['dirc'];
+
         if($_POST['find'] == '' && $_POST['amount'] == ''){
             $query = "SELECT * FROM osallistujat ORDER BY osallistujat . id $dirc";
 
             $results = $db_connection -> query($query);
         }elseif($_POST['amount'] == ''){
             $definer = $_POST['definer'];
-            $find = $_POST['find'];
+
+                if(isset($_POST['tarkka'])){
+                    $find = $_POST['find'];
+                }else{
+                    $find = "%" . $_POST['find'] . "%";
+                }
+            
             
 
             $query = "SELECT * FROM osallistujat WHERE $definer LIKE '$find' ORDER BY osallistujat . id $dirc";
@@ -41,7 +59,13 @@
             $results = $db_connection -> query($query);
         }else{
             $definer = $_POST['definer'];
-            $find = $_POST['find'];
+
+                if(isset($_POST['tarkka'])){
+                    $find = $_POST['find'];
+                }else{
+                    $find = "%" . $_POST['find'] . "%";
+                }
+
             $amnt = $_POST['amount'];
 
 
@@ -57,7 +81,7 @@
         $results = $db_connection -> query($query);
     }
 
-    
+    $smoll = $_SESSION['mini'];
     
 ?>
 
@@ -74,14 +98,31 @@
 
 <body>
 
-<nav class="navbar navbar-expand-sm navbar-primary bg-primary .sticky-top">
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="javascript:void(0)"> <img src="../img/ViKi_logo.png" alt="logo" class="logo"> </a>
-        <ul class="navbar-nav">
+
+        <ul class="navbar-nav me-auto">
             <li class="nav-item">
-                <div class="d-flex">
-                    <button class="btn btn-info mt-3" id="smoll">suurenettu &#8649;</button>
-                </div>
+                <a class="mt-3 btn btn-info" href="manul_fi.html">manuaali/manual</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav">
+
+            <li class="nav-item">
+                <form class="d-flex" method="post">
+                    <button name="minify" type="submit" class="btn btn-info mt-3"><?php 
+                    $dirc = $_SESSION['dirc'];
+                    
+                    if($smoll == false){
+                        echo "suurenettu &#8649;";
+                    }else{
+                        echo "pienennetty &#8647;";
+                    }
+                    
+                    ?></button>
+                </form>
             </li>
             <li class="nav-item">
                 <form class="d-flex" method="post">
@@ -111,6 +152,11 @@
                         <input class="form-control mt-3" type="text" id="find" name="find" placeholder="etsi">
                     </div>
 
+                    <div class="form-check form-switch mt-4 d-flex" id="tarkka">
+                        <input class="form-check-input" type="checkbox" id="tarkka" name="tarkka" value="yes">
+                        <label class="form-check-label text-white" id="tarkka" for="tarkka">tarkka</label>
+                    </div>
+
                     <div class="d-flex">
                         <input class="form-control mt-3" type="number" id="amount" name="amount" placeholder="kuinka monta riviä?">
                     </div>
@@ -123,10 +169,13 @@
 </nav>
     
 <div class="container">
-        <table class="table">
+        <table class="table table-hover table-bordered">
             <thead>
                 <tr>
                     <th>Nimike</th>
+                <?php
+                if($smoll == false){
+                ?>
                     <th>k1</th>
                     <th>k2</th>
                     <th>k3</th>
@@ -148,10 +197,17 @@
                     <th>k19</th>
                     <th>k20</th>
                     <th>k21</th>
+                <?php
+                }else{
+                ?>
+                    <th>kyllä</th>
+                    <th>ei</th>
+                <?php
+                }
+                ?>
                     <th>luokka</th>
                     <th>lähettetty</th>
                     <th>poista</th>
-                    <th><a href="create.php"><i class="fas fa-plus text-success"></i></a></th>
                 </tr>
             </thead>
             <tbody>
@@ -160,6 +216,9 @@
                     ?>
                     <tr>
                         <td><?php echo $result['knimi'];?></td>
+                    <?php
+                    if($smoll == false){
+                    ?>
                         <td><?php echo $result['k1'];?></td>
                         <td><?php echo $result['k2'];?></td>
                         <td><?php echo $result['k3'];?></td>
@@ -181,6 +240,14 @@
                         <td><?php echo $result['k19'];?></td>
                         <td><?php echo $result['k20'];?></td>
                         <td><?php echo $result['k21'];?></td>
+                    <?php
+                    }else{
+                    ?>
+                        <td><?php echo $result['kyll'];?></td>
+                        <td><?php echo $result['ei'];?></td>
+                    <?php
+                    }
+                    ?>
                         <td><?php echo $result['luokka'];?></td>
                         <td><?php echo $result['mov'];?></td>
                         <td><a class="text-danger" href="delete.php?id= <?php echo $result['id'];?>">poista</a></td>

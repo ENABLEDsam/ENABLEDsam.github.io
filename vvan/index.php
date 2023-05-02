@@ -8,14 +8,19 @@
 
     $_SESSION['dirc'] = "DESC";
 
+    $_SESSION['mini'] = false;
+
     if(isset($_POST['login'])){
         if(!$_POST['user'] == '' && !$_POST['pass'] == ''){
-            $user = $_SESSION['user'] = $_POST['user'];
-            $pass = $_SESSION['pass'] = $_POST['pass'];
+            $user = $_POST['user'];
+            $pass = $_POST['pass'];
     
             $query = "SELECT nimi, pass FROM admin WHERE nimi = '$user' AND pass = MD5('$pass')";
             $results = $db_connection -> query($query);
             if($results -> rowCount() == 1){
+                $_SESSION['user'] = $_POST['user'];
+                $_SESSION['pass'] = $_POST['pass'];
+
                 $_SESSION['flag'] = null;
                 header('Location: adminp.php');
             }else{

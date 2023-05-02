@@ -1,7 +1,19 @@
 var definerNode = document.getElementById('definer');
 var changerNode = document.getElementById('changer');
+var switcher = document.querySelectorAll('#tarkka');
+var tables = document.querySelectorAll('td');
+
+
+for (let i = 0; i < tables.length; i++) {
+    if(tables[i].innerText == "k"){
+        tables[i].style.backgroundColor = "green";
+    }else if(tables[i].innerText == "e"){
+        tables[i].style.backgroundColor = "red";
+    }
+}
 
 definerNode.addEventListener("change",turner);
+
 
 function turner(){
     if(definerNode.value == "knimi"){
@@ -14,6 +26,11 @@ function turner(){
         input.setAttribute('name','find');
         input.setAttribute('placeholder','etsi');
         changerNode.appendChild(input);
+
+        for (let i = 0; i < switcher.length; i++) {
+            switcher[i].style.display = "initial";
+        }
+
     }else if(definerNode.value == "luokka"){
         changerNode.removeChild(changerNode.firstElementChild);
 
@@ -52,6 +69,11 @@ function turner(){
         opt5.setAttribute('value','kokki');
         select.appendChild(opt5);
         opt5.innerText = "kokki";
+
+        for (let i = 0; i < switcher.length; i++) {
+            switcher[i].style.display = "none";
+        }
+
     }else if(definerNode.value == "mov"){
         changerNode.removeChild(changerNode.firstElementChild);
 
@@ -62,5 +84,10 @@ function turner(){
         date.setAttribute('name','find');
         date.setAttribute('placeholder','etsi');
         changerNode.appendChild(date);
+
+        for (let i = 0; i < switcher.length; i++) {
+            switcher[i].style.display = "none";
+        }
     }
 }
+

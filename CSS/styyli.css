@@ -62,3 +62,11 @@ visibility: hidden;
     width: 50px;
     height: 50px;
 }
+.form-check-input:checked {
+    background-color: rgba(13, 202, 240, 1) !important;
+    border-color: rgba(13, 202, 240, 1) !important;
+}
+.form-check-input{
+    background-color: rgba(255, 255, 255, 1) !important;
+    border-color: rgba(191, 191, 191, 1) !important;
+}
