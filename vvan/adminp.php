@@ -153,9 +153,9 @@
                         <input class="form-control mt-3" type="text" id="find" name="find" placeholder="etsi">
                     </div>
 
-                    <div class="form-check form-switch mt-4 d-flex" id="tarkka">
-                        <input class="form-check-input" type="checkbox" id="tarkka" name="tarkka" value="yes">
-                        <label class="form-check-label text-white" id="tarkka" for="tarkka">tarkka</label>
+                    <div class="form-check form-switch mt-4 d-flex precise">
+                        <input class="form-check-input precise" type="checkbox" id="tarkka" name="tarkka" value="yes">
+                        <label class="form-check-label text-white precise"for="tarkka">tarkka</label>
                     </div>
 
                     <div class="d-flex">

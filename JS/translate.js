@@ -24,7 +24,12 @@ function collapse1(){
         }
     }else if(col == false){
         for (let i = 0; i < section1.length; i++) {
-            section1[i].style.display = "initial";
+            if(section1[i].nodeName == "LI"){
+                section1[i].style.display = "list-item";
+            }else{
+                section1[i].style.display = "block";
+            }
+            
             btn1.innerText = "\u2193\u2193";
         }
     }

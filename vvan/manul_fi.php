@@ -60,6 +60,12 @@
                     <li>
                         <a href="#1-2">vastaukset</a>
                     </li>
+                    <li>
+                        <a href="#1-3">luokka</a>
+                    </li>
+                    <li>
+                        <a href="#1-4">luokka</a>
+                    </li>
                 </ul>
             </ol>
         </div>
@@ -76,7 +82,7 @@
 
         <div class="border border-info border-3">
             <div class="border border-info border-3">
-                <h1 id="1">taulukko</h1>
+                <h1 id="1">1. Taulukko</h1>
 
                 <button class="btn btn-outline-primary float-end btn-pos" id="sec1">&darr;&darr;</button>
             </div>
@@ -90,14 +96,38 @@
             <h2 class="section1" id="1-1">kutsuma nimi</h2>
             <img class="small-img section1" src="../img/manual_pics/manual_pic_13.png" alt="kuva Knimi sarakeesta">
 
-            <p class="section1">kutsuma nimi sarakeessa on ihmisten kutsuma nimet, viki työ testi on anonyymi joten oletetaan että kaikki nimet annettu ovat kutsumanimiä, nämä nimet ovat tärkeitä lötääkseen kaikki tiedot taulukosta, nimiä voidaan käyttää haussa, josta puhutaan myöhemmin</p>
+            <p class="section1">kutsuma nimi sarakeessa on ihmisten kutsuma nimet, viki työ testi on anonyymi joten oletetaan että kaikki nimet annettu ovat kutsumanimiä, nämä nimet ovat tärkeitä lötääkseen kaikki tiedot taulukosta, nimiä voidaan käyttää haussa, josta puhutaan myöhemmin.</p>
 
             <br class="section1">
 
             <h2 class="section1" id="1-2">vastaukset</h2>
             <img class="small-img section1" src="../img/manual_pics/manual_pic_14.png" alt="kuva vastaus sarakeista">
 
-            <p class="section1">vastaus sarakkeet näyttävät kaikkien vastaukest, jokaisesta kysymyksestä on yksi vastaus jonka voi nähdä, </p>
+            <p class="section1">vastaus sarakkeet näyttävät kaikkien vastaukest, jokaisesta kysymyksestä on yksi vastaus jonka voi nähdä. Vastaukset on järjestetty 21:een sarakeeseen, joissa on joko vihreä K tai punainen E, värit ovat tärkeitä koska se helpottaa tiedon lukemista, on myös pienenetty näkymä, josta me kerromme myöhemmin. Vastaus sarakeita ei voi käyttää suoraan missään haussa.</p>
+
+            <br class="section1">
+
+            <h2 class="section1" id="1-3">luokka</h2>
+            <img class="small-img section1" src="../img/manual_pics/manual_pic_15.png" alt="kuva luokka sarakeesta">
+
+            <p class="section1">luokka sarakeessa näytetään mitä luokkia kaikki osalistujat ovat saaneet, ne on jaettu viiteen eri luokkaan:</p>
+
+                <ul class="section1">
+                    <li class="section1">höylä (tai Moniosaajatyöntekijä)</li>
+                    <li class="section1">markkinointu (tai mediatyöntekijä)</li>
+                    <li class="section1">puhdistaja (tai puhdistajatyöntekijä)</li>
+                    <li class="section1">kassa (tai kassatyöntekijä)</li>
+                    <li class="section1">kokki (tai cateringtyöntekijä)</li>
+                </ul>
+
+            <p class="section1">luokkia voidaan käyttää tiedon haussa</p>
+
+            <br class="section1">
+
+            <h2 class="section1" id="1-4">milloin lähetetty</h2>
+            <img class="small-img section1" src="../img/manual_pics/manual_pic_15.png" alt="kuva milloin lähetetty sarakeesta">
+
+            <p class="section1"></p>
 
             <br class="section1">
         </div>

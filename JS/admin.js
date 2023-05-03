@@ -1,6 +1,6 @@
 var definerNode = document.getElementById('definer');
 var changerNode = document.getElementById('changer');
-var switcher = document.querySelectorAll('#tarkka');
+var switcher = document.querySelectorAll('.precise');
 var tables = document.querySelectorAll('td');
 
 

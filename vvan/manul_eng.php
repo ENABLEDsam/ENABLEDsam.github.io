@@ -60,6 +60,9 @@
                     <li>
                         <a href="#1-2">anwsers</a>
                     </li>
+                    <li>
+                        <a href="#1-3">class</a>
+                    </li>
                 </ul>
             </ol>
         </div>
@@ -76,26 +79,47 @@
 
         <div class="border border-info border-3">
             <div class="border border-info border-3">
-                <h1>table</h1>
+                <h1>1. Table</h1>
 
                 <button class="btn btn-outline-primary float-end btn-pos" id="sec1">&darr;&darr;</button>
             </div>
 
             <br class="section1">
 
-            <p class="section1">as you can see, when opening the view, you will see the table, contianing nickname, anwser, class and what day has the quiz been sent anonamously. lets take a closer look what each section holds</p>
+            <p class="section1">as you can see, when opening the view, you will see the table, contianing nickname, anwser, class and what day has the quiz been sent anonamously. lets take a closer look what each section holds.</p>
 
             <br class="section1">
 
             <h2 class="section1">nickname</h2>
             <img class="small-img section1" src="../img/manual_pics/manual_pic_13.png" alt="picture of Knimi collumn">
 
-            <p class="section1">nickane column has peoples nicknames, viki work test is anonamous so we assume that all names given are nicknames, these names are important to find info from the spreadsheet, names can be used in search, wich we will talk about it later</p>
+            <p class="section1">nickane column has peoples nicknames, viki work test is anonamous so we assume that all names given are nicknames, these names are important to find info from the spreadsheet, names can be used in search, wich we will talk about it later.</p>
 
             <br class="section1">
 
             <h2 class="section1" id="1-2">anwsers</h2>
             <img class="small-img section1" src="../img/manual_pics/manual_pic_14.png" alt="picture of anwsers collmuns">
+
+            <p class="section1">anwsers collumns shows everyones anwser, every collumn shows one possible anwser. anwsers have been separated into 21 collumns, that has either a green K or a red E (K stands for yes, E stands for no), the colours are for the ease of reading, there is also a minimized  view, wich we will tell about later. Anwsers collumns cannot be used directly in searches.</p>
+
+            <br class="section1">
+
+            <h2 class="section1" id="1-3">luokka</h2>
+            <img class="small-img section1" src="../img/manual_pics/manual_pic_15.png" alt="picture of class collumn">
+
+            <p class="section1">class collumn shows what class every participant has gotten, they are separated into five classes:</p>
+
+                <ul class="section1">
+                    <li class="section1">höylä (or multi task employee)</li>
+                    <li class="section1">markkinointu (or media employee)</li>
+                    <li class="section1">puhdistaja (or cleaning employee)</li>
+                    <li class="section1">kassa (or register employee)</li>
+                    <li class="section1">kokki (or catering employee)</li>
+                </ul>
+
+            <p class="section1">classes can be used with searching</p>
+
+            <br class="section1">
         </div>
     </div>
 
