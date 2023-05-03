@@ -98,10 +98,11 @@
 
 <body>
 
-<nav class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top">
+<nav class="navbar navbar-expand-sm navbar-dark bg-viki sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="javascript:void(0)"> <img src="../img/ViKi_logo.png" alt="logo" class="logo"> </a>
-
+    <div  class="bg-info rounded-circle soos">
+        <a class="navbar-brand" href="javascript:void(0)"> <img src="../img/ViKi_logo.png" alt="logo" class="logo"> </a>
+    </div>
         <ul class="navbar-nav me-auto">
             <li class="nav-item">
                 <a class="mt-3 btn btn-info" href="manul_fi.html">manuaali/manual</a>
