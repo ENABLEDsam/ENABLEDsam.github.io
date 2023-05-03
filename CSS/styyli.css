@@ -21,6 +21,7 @@ body{
     background-color: #81CEDE;
     color: black;
     font-family: 'Open Sans', sans-serif;
+    overflow-y: scroll;
 }
 .scrollLock{
     overflow: hidden;

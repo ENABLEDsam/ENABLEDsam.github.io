@@ -64,7 +64,10 @@
                         <a href="#1-3">luokka</a>
                     </li>
                     <li>
-                        <a href="#1-4">luokka</a>
+                        <a href="#1-4">milloin lähetetty</a>
+                    </li>
+                    <li>
+                        <a href="#1-5">poista</a>
                     </li>
                 </ul>
             </ol>
@@ -125,11 +128,16 @@
             <br class="section1">
 
             <h2 class="section1" id="1-4">milloin lähetetty</h2>
-            <img class="small-img section1" src="../img/manual_pics/manual_pic_15.png" alt="kuva milloin lähetetty sarakeesta">
+            <img class="small-img section1" src="../img/manual_pics/manual_pic_16.png" alt="kuva milloin lähetetty sarakeesta">
 
-            <p class="section1"></p>
+            <p class="section1">milloin lähetetty sarake näyttää päivämäärän jolloin joku on lähetänyt vastaukset, päivämäärää voi käyttää haussa</p>
 
             <br class="section1">
+
+            <h2 class="section1" id="1-5">poista</h2>
+            <img class="small-img section1" src="../img/manual_pics/manual_pic_17.png" alt="kuva poista sarakeesta">
+
+            <p class="section1">poista sarake sisältää poista toiminon</p>
         </div>
     </div>
 

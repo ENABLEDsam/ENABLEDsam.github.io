@@ -63,6 +63,12 @@
                     <li>
                         <a href="#1-3">class</a>
                     </li>
+                    <li>
+                        <a href="#1-4">when sent</a>
+                    </li>
+                    <li>
+                        <a href="#1-5">delete</a>
+                    </li>
                 </ul>
             </ol>
         </div>
@@ -120,6 +126,18 @@
             <p class="section1">classes can be used with searching</p>
 
             <br class="section1">
+
+            <h2 class="section1" id="1-4">when sent</h2>
+            <img class="small-img section1" src="../img/manual_pics/manual_pic_16.png" alt="picture of when sent collumn">
+
+            <p class="section1">when sent collumn shows the date when someone has sent their anwsers, the date can be used in search</p>
+
+            <br class="section1">
+
+            <h2 class="section1" id="1-5">delete</h2>
+            <img class="small-img section1" src="../img/manual_pics/manual_pic_17.png" alt="picture of delete column">
+
+            <p class="section1">delete column contains the delete function</p>
         </div>
     </div>
 

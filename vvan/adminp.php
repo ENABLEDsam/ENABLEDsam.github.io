@@ -207,7 +207,7 @@
                 }
                 ?>
                     <th>luokka</th>
-                    <th>lähettetty</th>
+                    <th>lähetetty</th>
                     <th>poista</th>
                 </tr>
             </thead>
