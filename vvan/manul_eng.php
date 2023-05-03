@@ -70,6 +70,9 @@
                         <a href="#1-5">delete</a>
                     </li>
                 </ul>
+                <li>
+                    <a href="#2">functions</a>
+                </li>
             </ol>
         </div>
 
@@ -144,7 +147,7 @@
 
         <div class="border border-info border-3">
             <div class="border border-info border-3">
-            <h1 id="2">2. funktiot</h1>
+            <h1 id="2">2. functions</h1>
 
             <button class="btn btn-outline-primary float-end btn-pos" id="sec2">&darr;&darr;</button>
             </div>
