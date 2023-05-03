@@ -1,3 +1,15 @@
+<?php
+
+    require_once("../php/db_config.php");
+
+    session_start();
+
+    if(!isset($_SESSION['user']) && !isset($_SESSION['pass'])){
+        header("Location: index.php");
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="fi">
 <head>
@@ -78,12 +90,16 @@
             <h2 class="section1" id="1-1">kutsuma nimi</h2>
             <img class="small-img section1" src="../img/manual_pics/manual_pic_13.png" alt="kuva Knimi sarakeesta">
 
-            <p class="section1">kutsuma nimi sarakeessa on ihmisten kutsuma nimet, viki työ testi on anonyymi joten oletetaan että kaikki nimet annettu ovat kutsumanimiä, nämä nimet ovat tärkeitä lötääkseen kaikki tiedot taulukosta, nimiä voidaan käyttää haussa, josta puhutaan    myöhemmin</p>
+            <p class="section1">kutsuma nimi sarakeessa on ihmisten kutsuma nimet, viki työ testi on anonyymi joten oletetaan että kaikki nimet annettu ovat kutsumanimiä, nämä nimet ovat tärkeitä lötääkseen kaikki tiedot taulukosta, nimiä voidaan käyttää haussa, josta puhutaan myöhemmin</p>
 
             <br class="section1">
 
             <h2 class="section1" id="1-2">vastaukset</h2>
             <img class="small-img section1" src="../img/manual_pics/manual_pic_14.png" alt="kuva vastaus sarakeista">
+
+            <p class="section1">vastaus sarakkeet näyttävät kaikkien vastaukest, jokaisesta kysymyksestä on yksi vastaus jonka voi nähdä, </p>
+
+            <br class="section1">
         </div>
     </div>
 

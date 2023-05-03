@@ -9,9 +9,9 @@ btn1.addEventListener("click",collapse1);
 
 function translate(){
     if(manualNode.value == "fin"){
-        window.location.href = "manul_fi.html";
+        window.location.href = "manul_fi.php";
     }else if(manualNode.value == "eng"){
-        window.location.href = "manul_eng.html";
+        window.location.href = "manul_eng.php";
     }
 }
 

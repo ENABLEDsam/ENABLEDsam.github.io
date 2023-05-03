@@ -105,7 +105,7 @@
     </div>
         <ul class="navbar-nav me-auto">
             <li class="nav-item">
-                <a class="mt-3 btn btn-info" href="manul_fi.html">manuaali/manual</a>
+                <a class="mt-3 btn btn-info" href="manul_fi.php">manuaali/manual</a>
             </li>
         </ul>
 
