@@ -82,3 +82,11 @@ visibility: hidden;
     width: 55px;
     height: 55px;
 }
+.small-img{
+    width: 95%;
+    height: 95%;
+}
+.btn-pos{
+    position: relative;
+    bottom: 50px;
+}
