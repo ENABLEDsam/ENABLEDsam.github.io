@@ -139,6 +139,22 @@
 
             <p class="section1">delete column contains the delete function</p>
         </div>
+
+        <br>
+
+        <div class="border border-info border-3">
+            <div class="border border-info border-3">
+            <h1 id="2">2. funktiot</h1>
+
+            <button class="btn btn-outline-primary float-end btn-pos" id="sec2">&darr;&darr;</button>
+            </div>
+    
+            <br class="section2">
+
+            <p class="section2">uwu</p>
+
+
+        </div>
     </div>
 
 

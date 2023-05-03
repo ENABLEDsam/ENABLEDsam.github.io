@@ -70,6 +70,9 @@
                         <a href="#1-5">poista</a>
                     </li>
                 </ul>
+                <li>
+                    <a href="#2">funktiot</a>
+                </li>
             </ol>
         </div>
 
@@ -138,6 +141,22 @@
             <img class="small-img section1" src="../img/manual_pics/manual_pic_17.png" alt="kuva poista sarakeesta">
 
             <p class="section1">poista sarake sisältää poista toiminon</p>
+        </div>
+
+        <br>
+
+        <div class="border border-info border-3">
+            <div class="border border-info border-3">
+                <h1 id="2">2. funktiot</h1>
+
+                <button class="btn btn-outline-primary float-end btn-pos" id="sec2">&darr;&darr;</button>
+            </div>
+            
+            <br class="section2">
+
+            <p class="section2">uwu</p>
+
+
         </div>
     </div>
 
