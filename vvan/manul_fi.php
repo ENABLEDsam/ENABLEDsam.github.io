@@ -154,7 +154,7 @@
             
             <br class="section2">
 
-            <p class="section2">uwu</p>
+            <p class="section2">funktiot autavat tiedon lötämisessä tai parantaa luettavuutta, ne on jaettu kahteen osioon: luettavuus ja tiedon haku. Poistaminen on kolmas function joke ei kuulu noihin kahteen josta kerrotaan lopussa</p>
 
 
         </div>
