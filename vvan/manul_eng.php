@@ -126,21 +126,21 @@
                     <li class="section1">kokki (or catering employee)</li>
                 </ul>
 
-            <p class="section1">classes can be used with searching</p>
+            <p class="section1">classes can be used with searching.</p>
 
             <br class="section1">
 
             <h2 class="section1" id="1-4">when sent</h2>
             <img class="small-img section1" src="../img/manual_pics/manual_pic_16.png" alt="picture of when sent collumn">
 
-            <p class="section1">when sent collumn shows the date when someone has sent their anwsers, the date can be used in search</p>
+            <p class="section1">when sent collumn shows the date when someone has sent their anwsers, the date can be used in search.</p>
 
             <br class="section1">
 
             <h2 class="section1" id="1-5">delete</h2>
             <img class="small-img section1" src="../img/manual_pics/manual_pic_17.png" alt="picture of delete column">
 
-            <p class="section1">delete column contains the delete function</p>
+            <p class="section1">delete column contains the delete function.</p>
         </div>
 
         <br>
@@ -154,7 +154,7 @@
     
             <br class="section2">
 
-            <p class="section2">uwu</p>
+            <p class="section2">functions help with either searching or easier readability, they are separated in two sections: readability and info searching. deleting is the third function, that doesn't fit into the two sections, we will talk about it at the end.</p>
 
 
         </div>

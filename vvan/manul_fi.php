@@ -126,21 +126,21 @@
                     <li class="section1">kokki (tai cateringtyöntekijä)</li>
                 </ul>
 
-            <p class="section1">luokkia voidaan käyttää tiedon haussa</p>
+            <p class="section1">luokkia voidaan käyttää tiedon haussa.</p>
 
             <br class="section1">
 
             <h2 class="section1" id="1-4">milloin lähetetty</h2>
             <img class="small-img section1" src="../img/manual_pics/manual_pic_16.png" alt="kuva milloin lähetetty sarakeesta">
 
-            <p class="section1">milloin lähetetty sarake näyttää päivämäärän jolloin joku on lähetänyt vastaukset, päivämäärää voi käyttää haussa</p>
+            <p class="section1">milloin lähetetty sarake näyttää päivämäärän jolloin joku on lähetänyt vastaukset, päivämäärää voi käyttää haussa.</p>
 
             <br class="section1">
 
             <h2 class="section1" id="1-5">poista</h2>
             <img class="small-img section1" src="../img/manual_pics/manual_pic_17.png" alt="kuva poista sarakeesta">
 
-            <p class="section1">poista sarake sisältää poista toiminon</p>
+            <p class="section1">poista sarake sisältää poista toiminon.</p>
         </div>
 
         <br>
@@ -154,7 +154,7 @@
             
             <br class="section2">
 
-            <p class="section2">funktiot autavat tiedon lötämisessä tai parantaa luettavuutta, ne on jaettu kahteen osioon: luettavuus ja tiedon haku. Poistaminen on kolmas function joke ei kuulu noihin kahteen josta kerrotaan lopussa</p>
+            <p class="section2">funktiot autavat tiedon lötämisessä tai parantaa luettavuutta, ne on jaettu kahteen osioon: luettavuus ja tiedon haku. Poistaminen on kolmas function joke ei kuulu noihin kahteen josta kerrotaan lopussa.</p>
 
 
         </div>
