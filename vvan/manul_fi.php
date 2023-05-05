@@ -72,6 +72,19 @@
                 </ul>
                 <li>
                     <a href="#2">funktiot</a>
+                    <ol>
+                        <li>
+                            <a href="#2-1">luettavuus</a>
+                        </li>
+                        <ul>
+                            <li>
+                                <a href="#2-1-1">pienenys</a>
+                            </li>
+                            <li>
+                                <a href="#2-1-1">suunan muutos</a>
+                            </li>
+                        </ul>
+                    </ol>
                 </li>
             </ol>
         </div>
@@ -156,7 +169,35 @@
 
             <p class="section2">funktiot autavat tiedon lötämisessä tai parantaa luettavuutta, ne on jaettu kahteen osioon: luettavuus ja tiedon haku. Poistaminen on kolmas function joke ei kuulu noihin kahteen josta kerrotaan lopussa.</p>
 
+            <h1 class="section2" id="2-1">luettavuus</h1>
 
+            <br class="section2">
+
+            <p class="section2">luettavuus funktiot autavat luetavuudessa, ne muutavat taulukkoa jotenkin, ilman tiedon hakua. On olemassa kaksi luettavuus funktiota, pienennys ja suunan muutos.</p>
+
+            <br class="section2">
+
+            <h2 class="section2" id="2-1-1">pienennys</h2>
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_1.png" alt="kuva pienennys napista">
+
+            <p class="section2">pienennys funktio pienentää taulukon vastaus sarakkeet kahteen kyllä ja ei sarakeeseen, se näyttää suoraan kuinka monta kyllä ja ei vastausta henkilö on anatanut, mutta suurenetussa näkymässä näkyy enemmän tietoa. Pienennys aktivoidaan näytetystä napista, suurenetun näkymän saa takaisin samasta napista.</p>
+
+            <br class="section2">
+
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_11.png" alt="kuva suurenetusta näkymästä">
+            <p class="section2">kuva suurenetusta näkymästä, kaikki 21 vastaus saraketta</p>
+
+            <br class="section2">
+
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_12.png" alt="kuva pienenetystä näkymästä">
+            <p class="section2">kuva pienenetystä näkymästä, kyllä ja ei sarakkeet</p>
+
+            <br class="section2">
+
+            <h2 class="section2" id="2-1-2">suunan muutos</h2>
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_2.png" alt="kuva suunan muutos napista">
+
+            <p class="section2">suunan muunos muutaa suunan joko uusin ensin tai vanhin ensin, admin näkymä alkaa aina uusin ensin suunasta, suunan vaihdon voi tehdä painamalla näytetsytä napista</p>
         </div>
     </div>
 

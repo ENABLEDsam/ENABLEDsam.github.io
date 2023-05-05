@@ -72,6 +72,19 @@
                 </ul>
                 <li>
                     <a href="#2">functions</a>
+                    <ol>
+                        <li>
+                            <a href="#2-1">readability</a>
+                        </li>
+                        <ul>
+                            <li>
+                                <a href="#2-1-1">minimizing</a>
+                            </li>
+                            <li>
+                                <a href="#2-1-1">direction change</a>
+                            </li>
+                        </ul>
+                    </ol>
                 </li>
             </ol>
         </div>
@@ -156,7 +169,35 @@
 
             <p class="section2">functions help with either searching or easier readability, they are separated in two sections: readability and info searching. deleting is the third function, that doesn't fit into the two sections, we will talk about it at the end.</p>
 
+            <h1 class="section2" id="2-1">readability</h1>
 
+            <br class="section2">
+
+            <p class="section2">readability functions help with readability, they change the spreadsheet, but without any searching. there are two readability functions, minimize and direction change.</p>
+
+            <br class="section2">
+
+            <h2 class="section2" id="2-1-1">minimizing</h2>
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_1.png" alt="picture of minimize button">
+
+            <p class="section2">minimize function minimizes the anwser collumns of the spreadsheets to two yes and no collumns, it shows how many yesses and nos the person has gotten, but the biggened view shows more info. the minimizing is activated by the shown button, biggened view can be brought back with the same button.</p>
+
+            <br class="section2">
+
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_11.png" alt="picture of biggened view">
+            <p class="section2">picture of biggened view, all 21 collumns</p>
+
+            <br class="section2">
+
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_12.png" alt="picture of minimized view">
+            <p class="section2">picture of minimized view, yes and no collumns</p>
+
+            <br class="section2">
+
+            <h2 class="section2" id="2-1-2">direction change</h2>
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_2.png" alt="picture of direction change button">
+
+            <p class="section2">direction change changes the spreadsheet direction to either newest first or oldest first, admin view starts out with newest first, direction change can be done with the shown button</p>
         </div>
     </div>
 
