@@ -84,6 +84,9 @@
                                 <a href="#2-1-1">direction change</a>
                             </li>
                         </ul>
+                        <li>
+                            <a href="#2-2">searching</a>
+                        </li>
                     </ol>
                 </li>
             </ol>
@@ -169,6 +172,8 @@
 
             <p class="section2">functions help with either searching or easier readability, they are separated in two sections: readability and info searching. deleting is the third function, that doesn't fit into the two sections, we will talk about it at the end.</p>
 
+            <br class="section2">
+
             <h1 class="section2" id="2-1">readability</h1>
 
             <br class="section2">
@@ -198,6 +203,10 @@
             <img class="small-img section2" src="../img/manual_pics/manual_pic_2.png" alt="picture of direction change button">
 
             <p class="section2">direction change changes the spreadsheet direction to either newest first or oldest first, admin view starts out with newest first, direction change can be done with the shown button</p>
+
+            <br class="section2">
+
+            <h1 class="section2" id="2-2">searching</h1>
         </div>
     </div>
 

@@ -84,6 +84,9 @@
                                 <a href="#2-1-1">suunan muutos</a>
                             </li>
                         </ul>
+                        <li>
+                            <a href="#2-2">tiedon haku</a>
+                        </li>
                     </ol>
                 </li>
             </ol>
@@ -169,6 +172,8 @@
 
             <p class="section2">funktiot autavat tiedon lötämisessä tai parantaa luettavuutta, ne on jaettu kahteen osioon: luettavuus ja tiedon haku. Poistaminen on kolmas function joke ei kuulu noihin kahteen josta kerrotaan lopussa.</p>
 
+            <br class="section2">
+            
             <h1 class="section2" id="2-1">luettavuus</h1>
 
             <br class="section2">
@@ -198,6 +203,10 @@
             <img class="small-img section2" src="../img/manual_pics/manual_pic_2.png" alt="kuva suunan muutos napista">
 
             <p class="section2">suunan muunos muutaa suunan joko uusin ensin tai vanhin ensin, admin näkymä alkaa aina uusin ensin suunasta, suunan vaihdon voi tehdä painamalla näytetsytä napista</p>
+
+            <br class="section2">
+
+            <h1 class="section2" id="2-2">tiedon haku</h1>
         </div>
     </div>
 
