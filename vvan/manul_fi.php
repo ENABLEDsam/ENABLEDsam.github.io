@@ -87,6 +87,14 @@
                         <li>
                             <a href="#2-2">tiedon haku</a>
                         </li>
+                        <ul>
+                            <li>
+                                <a href="#2-2-1">haku metodi</a>
+                            </li>
+                            <li>
+                                <a href="#2-1-1">suunan muutos</a>
+                            </li>
+                        </ul>
                     </ol>
                 </li>
             </ol>
@@ -190,23 +198,40 @@
             <br class="section2">
 
             <img class="small-img section2" src="../img/manual_pics/manual_pic_11.png" alt="kuva suurenetusta näkymästä">
-            <p class="section2">kuva suurenetusta näkymästä, kaikki 21 vastaus saraketta</p>
+            <p class="section2">kuva suurenetusta näkymästä, kaikki 21 vastaus saraketta.</p>
 
             <br class="section2">
 
             <img class="small-img section2" src="../img/manual_pics/manual_pic_12.png" alt="kuva pienenetystä näkymästä">
-            <p class="section2">kuva pienenetystä näkymästä, kyllä ja ei sarakkeet</p>
+            <p class="section2">kuva pienenetystä näkymästä, kyllä ja ei sarakkeet.</p>
 
             <br class="section2">
 
             <h2 class="section2" id="2-1-2">suunan muutos</h2>
             <img class="small-img section2" src="../img/manual_pics/manual_pic_2.png" alt="kuva suunan muutos napista">
 
-            <p class="section2">suunan muunos muutaa suunan joko uusin ensin tai vanhin ensin, admin näkymä alkaa aina uusin ensin suunasta, suunan vaihdon voi tehdä painamalla näytetsytä napista</p>
+            <p class="section2">suunan muunos muutaa suunan joko uusin ensin tai vanhin ensin, admin näkymä alkaa aina uusin ensin suunasta, suunan vaihdon voi tehdä painamalla näytetsytä napista.</p>
 
             <br class="section2">
 
             <h1 class="section2" id="2-2">tiedon haku</h1>
+
+            <br class="section2">
+
+            <p class="section2">tiedon haku funktioita käytetään kun haetaan tietoa, siinä on paljon tarkenteita ja luettavuuden autajia, jos haluat perus-näkymän takaisin kun olet hakenut, paina etsi nappia, tai enteriä, kun olet klikannut teksti aluetta, kun kaikki teksti alueet ovat tyhjiä.</p>
+
+            <br class="section2">
+
+            <h2 class="section2" id="2-2-1">haku metodi</h2>
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_3.png" alt="kuva 'nimikeistä' valinasta">
+
+            <p class="section2">haku metodia voi muuttaa, on kolme haku metodia, nimikeistä hakeminen, luokista hakeminen ja lähetyksestä hakeminen. Nimikeistä hakemisessa haetaan kutsumanimeä käyttäen, se hakee kaikki kutsumanimet josta löytyy annettu termi.</p>
+
+            <br class="section2">
+
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_7.png" alt="kuva 'luoksta' valinasta">
+            <p class="section2">luokasta hakeminen muutaa teksti kentän pudotus menuksi, siinä käytetään tiettyjä luokkia hakemiseen, luokat voidaan nähdä <a href="#1-3">luokka</a> kohdasta edelisessä osiossa.</p>
+
         </div>
     </div>
 
