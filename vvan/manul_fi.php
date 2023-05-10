@@ -239,7 +239,7 @@
             <br class="section2">
 
             <img class="small-img section2" src="../img/manual_pics/manual_pic_7.png" alt="kuva 'luoksta' valinasta">
-            <p class="section2">luokasta hakeminen muutaa teksti kentän pudotus menuksi, siinä käytetään tiettyjä luokkia hakemiseen, luokat voidaan nähdä <a href="#1-3">luokka</a> kohdasta edelisessä osiossa.</p>
+            <p class="section2">luokasta hakeminen muutaa teksti kentän pudotus menuksi, siinä käytetään tiettyjä luokkia hakemiseen, luokat voidaan nähdä <a class="section2" href="#1-3">luokka</a> kohdasta edelisessä osiossa.</p>
 
             <br class="section2">
 

@@ -48,24 +48,27 @@ function collapse1(){
 function collapse2(){
 
     if(col2 == true){
-        for (let i = 0; i < section1.length; i++) {
+        for (let i = 0; i < section2.length; i++) {
             section2[i].style.display = "none";
-            btn2.innerText = "\u2191\u2191";
-
-            col2 = false
+          
         }
+        btn2.innerText = "\u2191\u2191";
+
+        col2 = false
     }else if(col2 == false){
-        for (let i = 0; i < section1.length; i++) {
-            if(section2[i].nodeName == "LI"){
-                section2[i].style.display = "list-item";
+        for (let i = 0; i < section2.length; i++) {
+            if(section2[i].nodeName == "A"){
+                section2[i].style.display = "inline";
             }else{
                 section2[i].style.display = "block";
             }
             
-            btn2.innerText = "\u2193\u2193";
-
-            col2 = true
+            
+           
         }
+        btn2.innerText = "\u2193\u2193";
+
+        col2 = true
     }
 
 }

@@ -146,7 +146,7 @@
 
             <br class="section1">
 
-            <h2 class="section1" id="1-3">luokka</h2>
+            <h2 class="section1" id="1-3">class</h2>
             <img class="small-img section1" src="../img/manual_pics/manual_pic_15.png" alt="picture of class collumn">
 
             <p class="section1">class collumn shows what class every participant has gotten, they are separated into five classes:</p>
@@ -239,7 +239,7 @@
             <br class="section2">
 
             <img class="small-img section2" src="../img/manual_pics/manual_pic_7.png" alt="picture of 'by class' choice">
-            <p class="section2">search by classes changes the text field to a dropdown menu, it's used to find info by class, the classes can be seen <a href="#1-3">class</a> section within the last section.</p>
+            <p class="section2">search by classes changes the text field to a dropdown menu, it's used to find info by class, the classes can be seen <a class="section2" href="#1-3">class</a> section within the last section.</p>
 
             <br class="section2">
 
