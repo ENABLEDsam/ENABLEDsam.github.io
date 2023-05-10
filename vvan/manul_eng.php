@@ -94,7 +94,16 @@
                             <li>
                                 <a href="#2-2-2">search area</a>
                             </li>
+                            <li>
+                                <a href="#2-2-3">specific search</a>
+                            </li>
+                            <li>
+                                <a href="#2-2-4">row amount</a>
+                            </li>
                         </ul>
+                        <li>
+                            <a href="#3">deleting</a>
+                        </li>
                     </ol>
                 </li>
             </ol>
@@ -240,9 +249,32 @@
             <br class="section2">
 
             <h2 class="section2" id="2-2-2">search field</h2>
-            <img class="small-img section2" src="../img/manual_pics/manual_pic_4.png" alt="kuva haku alueesta">
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_4.png" alt="picture of the search field">
 
             <p class="section2">search field is used to search for info, using a search term/class/date, depending which search method is on.</p>
+
+            <br class="section2">
+
+            <h2 class="section2" id="2-2-3">specific search</h2>
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_5.png" alt="picture of the specific search switch">
+
+            <p class="section2">tspecific search can be used if you want to see a specific nickname, specific search can only be used if the search method is "by nicknames" option.</p>
+
+            <br class="section2">
+
+            <h2 class="section2" id="2-2-4">row amount</h2>
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_6.png" alt="picture of the row amount field">
+
+            <p class="section2">row amount field is used when you want a specific amount of rows, just give a number and the amount (or lower) of rows are given.</p>
+
+            <br class="section2">
+
+            <h1 class="section2" id="3">deleting</h1>
+
+            <br class="section2">
+
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_10.png" alt="kuva poista valikko">
+            <p class="section2">deleting function deletes the row when clicking on the link, you cannot recover deleted entries.</p>
         </div>
     </div>
 

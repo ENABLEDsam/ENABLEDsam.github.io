@@ -94,7 +94,16 @@
                             <li>
                                 <a href="#2-2-2">haku alue</a>
                             </li>
+                            <li>
+                                <a href="#2-2-3">tarkka haku</a>
+                            </li>
+                            <li>
+                                <a href="#2-2-4">rivien määrä</a>
+                            </li>
                         </ul>
+                        <li>
+                            <a href="#3">poistaminen</a>
+                        </li>
                     </ol>
                 </li>
             </ol>
@@ -244,6 +253,28 @@
 
             <p class="section2">haku alueessa laitetaan hakutermi/luokka/päivämäärä, riipuen mikä haku metodi on päällä.</p>
 
+            <br class="section2">
+
+            <h2 class="section2" id="2-2-3">tarkka haku</h2>
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_5.png" alt="kuva tarkka haku valinnasta">
+
+            <p class="section2">tarkkaa hakua kätetään jos haluat nähdä tietyn kutsumanimen, tarkka haku voi ainoastaan käyttää kun haku metodi on "nimikeistä" valinassa.</p>
+
+            <br class="section2">
+
+            <h2 class="section2" id="2-2-4">rivien määrä</h2>
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_6.png" alt="kuva rivien määrä aslueesta">
+
+            <p class="section2">rivien määrä aluetta käytetään kun halutaan tietty määrä rivejä, anna vain numero ja se määrä (tai alempi) rivejä annetaan.</p>
+
+            <br class="section2">
+
+            <h1 class="section2" id="3">poistaminen</h1>
+
+            <br class="section2">
+
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_10.png" alt="kuva poista valikko">
+            <p class="section2">poistamis funktio poistaa rivin kun linkkiä kilikataan, sitä ei voi palauttaa niin ole varovainen.</p>
         </div>
     </div>
 
