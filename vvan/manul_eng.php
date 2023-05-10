@@ -87,6 +87,14 @@
                         <li>
                             <a href="#2-2">searching</a>
                         </li>
+                        <ul>
+                            <li>
+                                <a href="#2-2-1">search method</a>
+                            </li>
+                            <li>
+                                <a href="#2-2-2">search area</a>
+                            </li>
+                        </ul>
                     </ol>
                 </li>
             </ol>
@@ -207,6 +215,34 @@
             <br class="section2">
 
             <h1 class="section2" id="2-2">searching</h1>
+
+            <br class="section2">
+
+            <p class="section2">searching functions are used when you are searching for info, there are many specifiers and readability easers, if you want the normal view back after searching, press the search button, or enter, after clicking on the search area, when all the text fields are empty.</p>
+
+            <br class="section2">
+
+            <h2 class="section2" id="2-2-1">search method</h2>
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_3.png" alt="picture of 'by nickname' choice">
+
+            <p class="section2">the search method can be changed, there are three search methods, search by nickname, search by classes and search by when sent. search by nickname finds all entries by nickname, it searches nicknames based on the term given, but it's not exact.</p>
+
+            <br class="section2">
+
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_7.png" alt="picture of 'by class' choice">
+            <p class="section2">search by classes changes the text field to a dropdown menu, it's used to find info by class, the classes can be seen <a href="#1-3">class</a> section within the last section.</p>
+
+            <br class="section2">
+
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_8.png" alt="picture of 'by when sent' choice">
+            <p class="section2">search by when sent changes the text field to a date field, it's used to search for dates, to find when someone has sent the test anwsers.</p>
+
+            <br class="section2">
+
+            <h2 class="section2" id="2-2-2">search field</h2>
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_4.png" alt="kuva haku alueesta">
+
+            <p class="section2">search field is used to search for info, using a search term/class/date, depending which search method is on.</p>
         </div>
     </div>
 

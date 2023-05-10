@@ -92,7 +92,7 @@
                                 <a href="#2-2-1">haku metodi</a>
                             </li>
                             <li>
-                                <a href="#2-1-1">suunan muutos</a>
+                                <a href="#2-2-2">haku alue</a>
                             </li>
                         </ul>
                     </ol>
@@ -231,6 +231,18 @@
 
             <img class="small-img section2" src="../img/manual_pics/manual_pic_7.png" alt="kuva 'luoksta' valinasta">
             <p class="section2">luokasta hakeminen muutaa teksti kentän pudotus menuksi, siinä käytetään tiettyjä luokkia hakemiseen, luokat voidaan nähdä <a href="#1-3">luokka</a> kohdasta edelisessä osiossa.</p>
+
+            <br class="section2">
+
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_8.png" alt="kuva 'lähetyksestä' valinasta">
+            <p class="section2">lähetyksestä hakeminen muutaa teksti kentän päivämäärä kentäksi, siinä haetaan päivämäärää, josta nähdään milloin joku on lähetänyt.</p>
+
+            <br class="section2">
+
+            <h2 class="section2" id="2-2-2">haku alue</h2>
+            <img class="small-img section2" src="../img/manual_pics/manual_pic_4.png" alt="kuva haku alueesta">
+
+            <p class="section2">haku alueessa laitetaan hakutermi/luokka/päivämäärä, riipuen mikä haku metodi on päällä.</p>
 
         </div>
     </div>
