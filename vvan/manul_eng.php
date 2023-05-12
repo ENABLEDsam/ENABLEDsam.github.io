@@ -258,7 +258,7 @@
             <h2 class="section2" id="2-2-3">specific search</h2>
             <img class="small-img section2" src="../img/manual_pics/manual_pic_5.png" alt="picture of the specific search switch">
 
-            <p class="section2">tspecific search can be used if you want to see a specific nickname, specific search can only be used if the search method is "by nicknames" option.</p>
+            <p class="section2">specific search can be used if you want to see a specific nickname, specific search can only be used if the search method is "by nicknames" option.</p>
 
             <br class="section2">
 
